@@ -7,8 +7,6 @@ import dash
 from dash import html, dcc
 import plotly.express as px
 from dash.dependencies import Input, Output
-from nba_api.stats.static import players
-from nba_api.stats.endpoints import commonplayerinfo
 
 # ---------------
 # DATA PROCESSING
@@ -48,44 +46,8 @@ fantasy_stats['fp'] = (
 
 # cache money
 CACHE_FILE = "player_lookup_cache.json"
-def get_player_id(first_name, last_name):
-    full_name = f"{first_name} {last_name}"
-    result = players.find_players_by_full_name(full_name)
-    if result:
-        return result[0]['id']
-    return None
-
-def build_player_image_url(player_id):
-    return f"https://cdn.nba.com/headshots/nba/latest/260x190/{player_id}.png"
-
-def get_player_position(player_id):
-    try:
-        info = commonplayerinfo.CommonPlayerInfo(player_id=player_id)
-        df = info.get_data_frames()[0]
-        return df.loc[0, 'POSITION']
-    except:
-        return None
-
-# get data from cache
 with open("player_lookup_cache.json", "r") as f:
     player_lookup = json.load(f)
-
-# Gather all unique players from fantasy_stats
-all_names = fantasy_stats[['firstName', 'lastName']].drop_duplicates()
-updated = False
-
-for _, row in all_names.iterrows():
-    full_name = f"{row['firstName']} {row['lastName']}"
-    if full_name not in player_lookup:
-        pid = get_player_id(row['firstName'], row['lastName'])
-        img_url = build_player_image_url(pid) if pid else None
-        position = get_player_position(pid) if pid else None
-        player_lookup[full_name] = {'player_id': pid, 'image_url': img_url, 'position': position}
-        updated = True
-
-if updated:
-    with open(CACHE_FILE, "w") as f:
-        json.dump(player_lookup, f)
 
 def get_cached(field, row):
     key = f"{row['firstName']} {row['lastName']}"
@@ -95,6 +57,7 @@ def get_cached(field, row):
 # TOP PERFORMERS
 # --------------
 
+# yesterday's top performers
 # yesterday = datetime.today().date() - timedelta(days=1)
 now = datetime.now()
 adjusted_date = (now - timedelta(hours=8)).date()
@@ -122,11 +85,7 @@ top_centers["category"] = "Centers"
 
 top_fantasy_players = pd.concat([top_5, top_guards, top_forwards, top_centers], ignore_index=True)
 
-top_fantasy_players["player_id"] = top_fantasy_players.apply(lambda row: get_cached("player_id", row), axis=1)
-top_fantasy_players["image_url"] = top_fantasy_players.apply(lambda row: get_cached("image_url", row), axis=1)
-top_fantasy_players["position"] = top_fantasy_players.apply(lambda row: get_cached("position", row), axis=1)
-
-# Top 3 from last 5 games
+# Top 3 performers over their last 5 games
 sorted_stats = fantasy_stats.sort_values(by=['firstName', 'lastName', 'gameDate'])
 last_5_games = sorted_stats.groupby(['firstName', 'lastName']).tail(5)
 
