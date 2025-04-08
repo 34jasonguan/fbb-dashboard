@@ -93,7 +93,10 @@ def get_cached(field, row):
 
 # -------- Top Performers --------
 
-yesterday = datetime.today().date() - timedelta(days=1)
+# yesterday = datetime.today().date() - timedelta(days=1)
+now = datetime.now()
+adjusted_date = (now - timedelta(hours=8)).date()
+yesterday = adjusted_date - timedelta(days=1)
 games_yesterday = fantasy_stats[fantasy_stats['gameDate'].dt.date == yesterday].copy()
 games_yesterday["player_id"] = games_yesterday.apply(lambda row: get_cached("player_id", row), axis=1)
 games_yesterday["image_url"] = games_yesterday.apply(lambda row: get_cached("image_url", row), axis=1)
@@ -104,15 +107,15 @@ games_yesterday = games_yesterday[games_yesterday["position"].notna()]
 top_5 = games_yesterday.sort_values(by='fp', ascending=False).head(5).copy()
 top_5["category"] = "All"
 
-top_guards = games_yesterday[games_yesterday["position"].str.startswith("G")] \
+top_guards = games_yesterday[games_yesterday["position"].astype(str).str.startswith("G")] \
     .sort_values(by="fp", ascending=False).head(5).copy()
 top_guards["category"] = "Guards"
 
-top_forwards = games_yesterday[games_yesterday["position"].str.startswith("F")] \
+top_forwards = games_yesterday[games_yesterday["position"].astype(str).str.startswith("F")] \
     .sort_values(by="fp", ascending=False).head(5).copy()
 top_forwards["category"] = "Forwards"
 
-top_centers = games_yesterday[games_yesterday["position"].str.startswith("C")] \
+top_centers = games_yesterday[games_yesterday["position"].astype(str).str.startswith("C")] \
     .sort_values(by="fp", ascending=False).head(5).copy()
 top_centers["category"] = "Centers"
 
@@ -139,6 +142,41 @@ merged = pd.merge(last_5_games, top_3_names, on=['firstName', 'lastName'], how='
 merged['player_id'] = merged.apply(lambda row: get_cached('player_id', row), axis=1)
 merged['image_url'] = merged.apply(lambda row: get_cached('image_url', row), axis=1)
 merged['position'] = merged.apply(lambda row: get_cached('position', row), axis=1)
+
+# --- Buy Low / Sell High Candidates ---
+
+# Get recent 5-game averages
+recent_avg = (
+    fantasy_stats
+    .groupby(['firstName', 'lastName'])
+    .tail(5)
+    .groupby(['firstName', 'lastName'])['fp']
+    .mean()
+    .reset_index()
+    .rename(columns={'fp': 'recent_avg_fp'})
+)
+
+# Load lookup into DataFrame with name columns
+lookup_df = (
+    pd.DataFrame.from_dict(player_lookup, orient='index')
+    .reset_index()
+    .rename(columns={'index': 'full_name'})
+)
+
+# Split full name to match on
+lookup_df[['firstName', 'lastName']] = lookup_df['full_name'].str.split(' ', n=1, expand=True)
+
+# Combine and filter
+candidates = (
+    pd.merge(lookup_df, recent_avg, on=['firstName', 'lastName'], how='inner')
+    .assign(diff=lambda df: df['recent_avg_fp'] - df['avg_fp'])
+    .query('avg_fp >= 30')
+)
+
+# Get top 2 buy low and sell high
+buy_low_candidates = candidates.sort_values(by='diff').head(2)
+sell_high_candidates = candidates.sort_values(by='diff', ascending=False).head(2)
+
 
 # ---------------
 # DASH COMPONENTS
@@ -201,6 +239,56 @@ for _, player in top_3.iterrows():
     player_history = merged[(merged['firstName'] == player['firstName']) & (merged['lastName'] == player['lastName'])]
     player_rows.append(create_player_row(player_history))
 
+def create_buy_sell_card(row):
+    image_url = get_cached('image_url', row)
+    return html.Div([
+        html.Img(src=image_url, style={"width": "80px", "border-radius": "8px"}),
+        html.H4(f"{row['firstName']} {row['lastName']}")
+    ], style={"textAlign": "center"})
+
+def create_fp_bar_chart(row):
+    df = pd.DataFrame({
+        "Category": ["Last 5 Avg", "Season Avg"],
+        "FP": [row['recent_avg_fp'], row['avg_fp']]
+    })
+    fig = px.bar(df, x="Category", y="FP", title=f"{row['firstName']} {row['lastName']} FP Comparison", height=500)
+    return dcc.Graph(figure=fig)
+
+buy_low_section = html.Div([
+    html.H2("Buy Low Candidates", style={"textAlign": "center"}),
+    html.Div([
+        create_buy_sell_card(buy_low_candidates.iloc[0]),
+        create_fp_bar_chart(buy_low_candidates.iloc[0]),
+        create_buy_sell_card(buy_low_candidates.iloc[1]),
+        create_fp_bar_chart(buy_low_candidates.iloc[1]),
+    ], style={
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "gap": "20px",
+        "backgroundColor": "#E0F7FA",
+        "padding": "20px",
+        "marginBottom": "40px"
+    })
+])
+
+sell_high_section = html.Div([
+    html.H2("Sell High Candidates", style={"textAlign": "center"}),
+    html.Div([
+        create_buy_sell_card(sell_high_candidates.iloc[0]),
+        create_fp_bar_chart(sell_high_candidates.iloc[0]),
+        create_buy_sell_card(sell_high_candidates.iloc[1]),
+        create_fp_bar_chart(sell_high_candidates.iloc[1]),
+    ], style={
+        "display": "grid",
+        "gridTemplateColumns": "1fr 1fr",
+        "gap": "20px",
+        "backgroundColor": "#FFEBEE",
+        "padding": "20px",
+        "marginBottom": "40px"
+    })
+])
+
+
 # ---------
 # FRONT END
 # ---------
@@ -247,7 +335,11 @@ app.layout = html.Div([
     }),
 
     html.H1("Top Players Over The Last 5 Games"),
-    html.Div(player_rows)
+    html.Div(player_rows), 
+
+    html.Div(buy_low_section), 
+
+    html.Div(sell_high_section)
 ])
 
 @app.callback(
@@ -279,7 +371,7 @@ def update_top_performers(all_clicks, guard_clicks, forward_clicks, center_click
 
     # Filter by position
     if category != "All":
-        df = df[df["position"].str.startswith(category)]
+        df = df[df["position"].astype(str).str.startswith(category)]
 
     # Get top 5 by fp
     df = df.sort_values(by="fp", ascending=False).head(5)

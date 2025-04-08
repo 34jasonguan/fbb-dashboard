@@ -1,723 +1,826 @@
 {
   "Nikola Jokic": {
     "player_id": "203999",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203999.png",
     "season_fp": 4692.0,
+    "games_played": 68,
     "avg_fp": 69.0
   },
   "Coby White": {
     "player_id": "1629632",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629632.png",
     "season_fp": 2439.0,
+    "games_played": 72,
     "avg_fp": 33.9
   },
   "Jonathan Mogbo": {
     "player_id": "1642367",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642367.png",
     "season_fp": 1029.0,
+    "games_played": 63,
     "avg_fp": 16.3
   },
   "Trae Young": {
     "player_id": "1629027",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629027.png",
     "season_fp": 3257.0,
+    "games_played": 73,
     "avg_fp": 44.6
   },
   "Luka Doncic": {
     "player_id": "1629029",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png",
     "season_fp": 2391.0,
+    "games_played": 45,
     "avg_fp": 53.1
   },
   "Giannis Antetokounmpo": {
     "player_id": "203507",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203507.png",
     "season_fp": 3722.0,
+    "games_played": 67,
     "avg_fp": 55.6
   },
   "Shai Gilgeous-Alexander": {
     "player_id": "1628983",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628983.png",
     "season_fp": 4417.0,
+    "games_played": 77,
     "avg_fp": 57.4
   },
   "Jeff Green": {
     "player_id": "201145",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201145.png",
     "season_fp": 259.0,
+    "games_played": 78,
     "avg_fp": 3.3
   },
   "Stephen Curry": {
     "player_id": "201939",
-    "position": null,
+    "position": "Guard",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201939.png",
     "season_fp": 2881.0,
+    "games_played": 69,
     "avg_fp": 41.8
   },
   "Jimmy Butler": {
     "player_id": "202710",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202710.png",
     "season_fp": 1873.0,
+    "games_played": 70,
     "avg_fp": 26.8
   },
   "Draymond Green": {
     "player_id": "203110",
-    "position": null,
+    "position": "Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203110.png",
     "season_fp": 1949.0,
+    "games_played": 67,
     "avg_fp": 29.1
   },
   "Steven Adams": {
     "player_id": "203500",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203500.png",
     "season_fp": 731.0,
+    "games_played": 67,
     "avg_fp": 10.9
   },
   "Kevon Looney": {
     "player_id": "1626172",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626172.png",
     "season_fp": 1202.0,
+    "games_played": 77,
     "avg_fp": 15.6
   },
   "Buddy Hield": {
     "player_id": "1627741",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627741.png",
     "season_fp": 1627.0,
+    "games_played": 78,
     "avg_fp": 20.9
   },
   "Gary Payton II": {
     "player_id": "1627780",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627780.png",
     "season_fp": 992.0,
+    "games_played": 65,
     "avg_fp": 15.3
   },
   "Fred VanVleet": {
     "player_id": "1627832",
-    "position": null,
+    "position": "Guard",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627832.png",
     "season_fp": 1946.0,
+    "games_played": 74,
     "avg_fp": 26.3
   },
   "Dillon Brooks": {
     "player_id": "1628415",
-    "position": null,
+    "position": "Guard-Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628415.png",
     "season_fp": 1755.0,
+    "games_played": 77,
     "avg_fp": 22.8
   },
   "Aaron Holiday": {
     "player_id": "1628988",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628988.png",
     "season_fp": 575.0,
+    "games_played": 78,
     "avg_fp": 7.4
   },
   "Kevin Knox II": {
     "player_id": "1628995",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628995.png",
     "season_fp": 79.0,
+    "games_played": 17,
     "avg_fp": 4.6
   },
   "Jock Landale": {
     "player_id": "1629111",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629111.png",
     "season_fp": 378.0,
+    "games_played": 75,
     "avg_fp": 5.0
   },
   "Jalen Green": {
     "player_id": "1630224",
-    "position": null,
+    "position": "Guard",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630224.png",
     "season_fp": 2555.0,
+    "games_played": 78,
     "avg_fp": 32.8
   },
   "Jonathan Kuminga": {
     "player_id": "1630228",
-    "position": null,
+    "position": "Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630228.png",
     "season_fp": 1109.0,
+    "games_played": 46,
     "avg_fp": 24.1
   },
   "Jae'Sean Tate": {
     "player_id": "1630256",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630256.png",
     "season_fp": 425.0,
+    "games_played": 78,
     "avg_fp": 5.4
   },
   "Pat Spencer": {
     "player_id": "1630311",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630311.png",
     "season_fp": 232.0,
+    "games_played": 59,
     "avg_fp": 3.9
   },
   "Moses Moody": {
     "player_id": "1630541",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630541.png",
     "season_fp": 1304.0,
+    "games_played": 74,
     "avg_fp": 17.6
   },
   "Alperen Sengun": {
     "player_id": "1630578",
-    "position": null,
+    "position": "Center",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630578.png",
     "season_fp": 2988.0,
+    "games_played": 78,
     "avg_fp": 38.3
   },
   "Gui Santos": {
     "player_id": "1630611",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630611.png",
     "season_fp": 590.0,
+    "games_played": 74,
     "avg_fp": 8.0
   },
   "Jabari Smith Jr.": {
     "player_id": "1631095",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631095.png",
     "season_fp": 1365.0,
+    "games_played": 75,
     "avg_fp": 18.2
   },
   "Tari Eason": {
     "player_id": "1631106",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631106.png",
     "season_fp": 1637.0,
+    "games_played": 72,
     "avg_fp": 22.7
   },
   "Trayce Jackson-Davis": {
     "player_id": "1631218",
-    "position": null,
+    "position": "Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631218.png",
     "season_fp": 1056.0,
+    "games_played": 78,
     "avg_fp": 13.5
   },
   "Nate Williams": {
     "player_id": "2826",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2826.png",
     "season_fp": 73.0,
+    "games_played": 48,
     "avg_fp": 1.5
   },
   "Amen Thompson": {
     "player_id": "1641708",
-    "position": null,
+    "position": "Guard-Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641708.png",
     "season_fp": 2484.0,
+    "games_played": 78,
     "avg_fp": 31.8
   },
   "Cam Whitmore": {
     "player_id": "1641715",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641715.png",
     "season_fp": 711.0,
+    "games_played": 65,
     "avg_fp": 10.9
   },
   "Brandin Podziemski": {
     "player_id": "1641764",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641764.png",
     "season_fp": 1587.0,
+    "games_played": 63,
     "avg_fp": 25.2
   },
   "Jackson Rowe": {
     "player_id": "1642050",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642050.png",
     "season_fp": 37.0,
+    "games_played": 10,
     "avg_fp": 3.7
   },
   "Reed Sheppard": {
     "player_id": "1642263",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642263.png",
     "season_fp": 476.0,
+    "games_played": 76,
     "avg_fp": 6.3
   },
   "Quinten Post": {
     "player_id": "1642366",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642366.png",
     "season_fp": 689.0,
+    "games_played": 43,
     "avg_fp": 16.0
   },
   "Russell Westbrook": {
     "player_id": "201566",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201566.png",
     "season_fp": 2232.0,
+    "games_played": 72,
     "avg_fp": 31.0
   },
   "DeAndre Jordan": {
     "player_id": "201599",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201599.png",
     "season_fp": 655.0,
+    "games_played": 79,
     "avg_fp": 8.3
   },
   "James Johnson": {
     "player_id": "201949",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201949.png",
     "season_fp": 18.0,
+    "games_played": 78,
     "avg_fp": 0.2
   },
   "Aaron Gordon": {
     "player_id": "203932",
-    "position": null,
+    "position": "Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203932.png",
     "season_fp": 1273.0,
+    "games_played": 48,
     "avg_fp": 26.5
   },
   "Dario Saric": {
     "player_id": "203967",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203967.png",
     "season_fp": 142.0,
+    "games_played": 74,
     "avg_fp": 1.9
   },
   "T.J. McConnell": {
     "player_id": "204456",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/204456.png",
     "season_fp": 1776.0,
+    "games_played": 75,
     "avg_fp": 23.7
   },
   "Myles Turner": {
     "player_id": "1626167",
-    "position": null,
+    "position": "Center-Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626167.png",
     "season_fp": 2344.0,
+    "games_played": 74,
     "avg_fp": 31.7
   },
   "Tony Bradley": {
     "player_id": "1628396",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628396.png",
     "season_fp": 87.0,
+    "games_played": 19,
     "avg_fp": 4.6
   },
   "Thomas Bryant": {
     "player_id": "1628418",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628418.png",
     "season_fp": 998.0,
+    "games_played": 75,
     "avg_fp": 13.3
   },
   "Vlatko Cancar": {
     "player_id": "1628427",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628427.png",
     "season_fp": 70.0,
+    "games_played": 25,
     "avg_fp": 2.8
   },
   "Michael Porter Jr.": {
     "player_id": "1629008",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629008.png",
     "season_fp": 2480.0,
+    "games_played": 74,
     "avg_fp": 33.5
   },
   "Andrew Nembhard": {
     "player_id": "1629614",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629614.png",
     "season_fp": 1600.0,
+    "games_played": 73,
     "avg_fp": 21.9
   },
   "Jalen Pickett": {
     "player_id": "1629618",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629618.png",
     "season_fp": 497.0,
+    "games_played": 69,
     "avg_fp": 7.2
   },
   "Obi Toppin": {
     "player_id": "1630167",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630167.png",
     "season_fp": 1615.0,
+    "games_played": 76,
     "avg_fp": 21.2
   },
   "Tyrese Haliburton": {
     "player_id": "1630169",
-    "position": null,
+    "position": "Guard",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630169.png",
     "season_fp": 3371.0,
+    "games_played": 74,
     "avg_fp": 45.6
   },
   "Aaron Nesmith": {
     "player_id": "1630174",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630174.png",
     "season_fp": 975.0,
+    "games_played": 61,
     "avg_fp": 16.0
   },
   "Zeke Nnaji": {
     "player_id": "1630192",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630192.png",
     "season_fp": 543.0,
+    "games_played": 79,
     "avg_fp": 6.9
   },
   "Bennedict Mathurin": {
     "player_id": "1631097",
-    "position": null,
+    "position": "Guard-Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631097.png",
     "season_fp": 1730.0,
+    "games_played": 73,
     "avg_fp": 23.7
   },
   "Julian Strawther": {
     "player_id": "1631124",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631124.png",
     "season_fp": 995.0,
+    "games_played": 64,
     "avg_fp": 15.5
   },
   "Christian Braun": {
     "player_id": "1631128",
-    "position": null,
+    "position": "Guard",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631128.png",
     "season_fp": 2444.0,
+    "games_played": 77,
     "avg_fp": 31.7
   },
   "Peyton Watson": {
     "player_id": "1631212",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631212.png",
     "season_fp": 1355.0,
+    "games_played": 66,
     "avg_fp": 20.5
   },
   "Jarace Walker": {
     "player_id": "1641716",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641716.png",
     "season_fp": 1016.0,
+    "games_played": 77,
     "avg_fp": 13.2
   },
   "Trey Alexander": {
     "player_id": "1641725",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641725.png",
     "season_fp": 47.0,
+    "games_played": 47,
     "avg_fp": 1.0
   },
   "PJ Hall": {
     "player_id": "1641790",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641790.png",
     "season_fp": 80.0,
+    "games_played": 44,
     "avg_fp": 1.8
   },
   "Hunter Tyson": {
     "player_id": "1641816",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641816.png",
     "season_fp": 271.0,
+    "games_played": 79,
     "avg_fp": 3.4
   },
   "Johnny Furphy": {
     "player_id": "1642277",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642277.png",
     "season_fp": 221.0,
+    "games_played": 76,
     "avg_fp": 2.9
   },
   "Enrique Freeman": {
     "player_id": "1642402",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642402.png",
     "season_fp": 69.0,
+    "games_played": 42,
     "avg_fp": 1.6
   },
   "RayJ Dennis": {
     "player_id": "1642484",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642484.png",
     "season_fp": 22.0,
+    "games_played": 18,
     "avg_fp": 1.2
   },
   "P.J. Tucker": {
     "player_id": "200782",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/200782.png",
     "season_fp": 0.0,
+    "games_played": 14,
     "avg_fp": 0.0
   },
   "Bradley Beal": {
     "player_id": "203078",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203078.png",
     "season_fp": 1590.0,
+    "games_played": 51,
     "avg_fp": 31.2
   },
   "Mason Plumlee": {
     "player_id": "203486",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203486.png",
     "season_fp": 1196.0,
+    "games_played": 76,
     "avg_fp": 15.7
   },
   "Vasilije Micic": {
     "player_id": "203995",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203995.png",
     "season_fp": 475.0,
+    "games_played": 71,
     "avg_fp": 6.7
   },
   "Tyus Jones": {
     "player_id": "1626145",
-    "position": null,
+    "position": "Guard",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626145.png",
     "season_fp": 2015.0,
+    "games_played": 77,
     "avg_fp": 26.2
   },
   "Delon Wright": {
     "player_id": "1626153",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626153.png",
     "season_fp": 436.0,
+    "games_played": 77,
     "avg_fp": 5.7
   },
   "Karl-Anthony Towns": {
     "player_id": "1626157",
-    "position": null,
+    "position": "Center-Forward",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626157.png",
     "season_fp": 3256.0,
+    "games_played": 76,
     "avg_fp": 42.8
   },
   "Devin Booker": {
     "player_id": "1626164",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626164.png",
     "season_fp": 3095.0,
+    "games_played": 72,
     "avg_fp": 43.0
   },
   "Cameron Payne": {
     "player_id": "1626166",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626166.png",
     "season_fp": 1065.0,
+    "games_played": 72,
     "avg_fp": 14.8
   },
   "Royce O'Neale": {
     "player_id": "1626220",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626220.png",
     "season_fp": 1666.0,
+    "games_played": 71,
     "avg_fp": 23.5
   },
   "Damion Lee": {
     "player_id": "1627814",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627814.png",
     "season_fp": 93.0,
+    "games_played": 78,
     "avg_fp": 1.2
   },
   "OG Anunoby": {
     "player_id": "1628384",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628384.png",
     "season_fp": 2540.0,
+    "games_played": 75,
     "avg_fp": 33.9
   },
   "Josh Hart": {
     "player_id": "1628404",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628404.png",
     "season_fp": 2967.0,
+    "games_played": 75,
     "avg_fp": 39.6
   },
   "Monte Morris": {
     "player_id": "1628420",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628420.png",
     "season_fp": 463.0,
+    "games_played": 68,
     "avg_fp": 6.8
   },
   "Grayson Allen": {
     "player_id": "1628960",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628960.png",
     "season_fp": 1269.0,
+    "games_played": 61,
     "avg_fp": 20.8
   },
   "Mikal Bridges": {
     "player_id": "1628969",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628969.png",
     "season_fp": 2559.0,
+    "games_played": 78,
     "avg_fp": 32.8
   },
   "Jalen Brunson": {
     "player_id": "1628973",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628973.png",
     "season_fp": 2708.0,
+    "games_played": 65,
     "avg_fp": 41.7
   },
   "Cody Martin": {
     "player_id": "1628998",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628998.png",
     "season_fp": 988.0,
+    "games_played": 51,
     "avg_fp": 19.4
   },
   "Mitchell Robinson": {
     "player_id": "1629011",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629011.png",
     "season_fp": 285.0,
+    "games_played": 18,
     "avg_fp": 15.8
   },
   "Landry Shamet": {
     "player_id": "1629013",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629013.png",
     "season_fp": 408.0,
+    "games_played": 50,
     "avg_fp": 8.2
   },
   "Bol Bol": {
     "player_id": "1629626",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629626.png",
     "season_fp": 523.0,
+    "games_played": 73,
     "avg_fp": 7.2
   },
   "Precious Achiuwa": {
     "player_id": "1630173",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630173.png",
     "season_fp": 955.0,
+    "games_played": 57,
     "avg_fp": 16.8
   },
   "Nick Richards": {
     "player_id": "1630208",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630208.png",
     "season_fp": 1215.0,
+    "games_played": 58,
     "avg_fp": 20.9
   },
   "Miles McBride": {
     "player_id": "1630540",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630540.png",
     "season_fp": 1281.0,
+    "games_played": 70,
     "avg_fp": 18.3
   },
   "Collin Gillespie": {
     "player_id": "1631221",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631221.png",
     "season_fp": 387.0,
+    "games_played": 39,
     "avg_fp": 9.9
   },
   "Anton Watson": {
     "player_id": "1641817",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641817.png",
     "season_fp": 14.0,
+    "games_played": 20,
     "avg_fp": 0.7
   },
   "Tyler Kolek": {
     "player_id": "1642278",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642278.png",
     "season_fp": 250.0,
+    "games_played": 76,
     "avg_fp": 3.3
   },
   "Oso Ighodaro": {
     "player_id": "1642345",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642345.png",
     "season_fp": 708.0,
+    "games_played": 77,
     "avg_fp": 9.2
   },
   "Ryan Dunn": {
     "player_id": "1642346",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642346.png",
     "season_fp": 1006.0,
+    "games_played": 73,
     "avg_fp": 13.8
   },
   "Pacome Dadiet": {
     "player_id": "1642359",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642359.png",
     "season_fp": 59.0,
+    "games_played": 44,
     "avg_fp": 1.3
   },
   "Caris LeVert": {
     "player_id": "1627747",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627747.png",
     "season_fp": 1551.0,
+    "games_played": 63,
     "avg_fp": 24.6
   },
   "Georges Niang": {
     "player_id": "162777",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/162777.png",
     "season_fp": 1345.0,
+    "games_played": 76,
     "avg_fp": 17.7
   },
   "Svi Mykhailiuk": {
     "player_id": "1629004",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629004.png",
     "season_fp": 482.0,
+    "games_played": 76,
     "avg_fp": 6.3
   },
   "Collin Sexton": {
     "player_id": "1629012",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629012.png",
     "season_fp": 1735.0,
+    "games_played": 67,
     "avg_fp": 25.9
   },
   "Terance Mann": {
     "player_id": "1629611",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629611.png",
     "season_fp": 1079.0,
+    "games_played": 65,
     "avg_fp": 16.6
   },
   "Garrison Mathews": {
     "player_id": "1629726",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629726.png",
     "season_fp": 659.0,
+    "games_played": 77,
     "avg_fp": 8.6
   },
   "Onyeka Okongwu": {
     "player_id": "1630168",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630168.png",
     "season_fp": 2304.0,
+    "games_played": 71,
     "avg_fp": 32.5
   },
   "Kenyon Martin Jr.": {
     "player_id": "1630231",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630231.png",
     "season_fp": 629.0,
+    "games_played": 53,
     "avg_fp": 11.9
   },
   "Vit Krejci": {
@@ -725,1014 +828,1159 @@
     "position": null,
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630249.png",
     "season_fp": 979.0,
+    "games_played": 61,
     "avg_fp": 16.0
   },
   "Jaden Springer": {
     "player_id": "1630531",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630531.png",
     "season_fp": 271.0,
+    "games_played": 73,
     "avg_fp": 3.7
   },
   "Johnny Juzang": {
     "player_id": "1630548",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630548.png",
     "season_fp": 938.0,
+    "games_played": 68,
     "avg_fp": 13.8
   },
   "Micah Potter": {
     "player_id": "1630695",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630695.png",
     "season_fp": 398.0,
+    "games_played": 45,
     "avg_fp": 8.8
   },
   "Dyson Daniels": {
     "player_id": "1630700",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630700.png",
     "season_fp": 2859.0,
+    "games_played": 73,
     "avg_fp": 39.2
   },
   "Keaton Wallace": {
     "player_id": "1630811",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630811.png",
     "season_fp": 383.0,
+    "games_played": 43,
     "avg_fp": 8.9
   },
   "Walker Kessler": {
     "player_id": "1631117",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631117.png",
     "season_fp": 2113.0,
+    "games_played": 64,
     "avg_fp": 33.0
   },
   "Oscar Tshiebwe": {
     "player_id": "1631131",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631131.png",
     "season_fp": 174.0,
+    "games_played": 27,
     "avg_fp": 6.4
   },
   "Dominick Barlow": {
     "player_id": "1631230",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631230.png",
     "season_fp": 334.0,
+    "games_played": 53,
     "avg_fp": 6.3
   },
   "Mouhamed Gueye": {
     "player_id": "1631243",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631243.png",
     "season_fp": 467.0,
+    "games_played": 43,
     "avg_fp": 10.9
   },
   "Daeqwon Plowden": {
     "player_id": "1631342",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631342.png",
     "season_fp": 40.0,
+    "games_played": 10,
     "avg_fp": 4.0
   },
   "Keyonte George": {
     "player_id": "1641718",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641718.png",
     "season_fp": 1813.0,
+    "games_played": 68,
     "avg_fp": 26.7
   },
   "Brice Sensabaugh": {
     "player_id": "1641729",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641729.png",
     "season_fp": 1152.0,
+    "games_played": 74,
     "avg_fp": 15.6
   },
   "Zaccharie Risacher": {
     "player_id": "1642258",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642258.png",
     "season_fp": 1476.0,
+    "games_played": 74,
     "avg_fp": 19.9
   },
   "Isaiah Collier": {
     "player_id": "1642268",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642268.png",
     "season_fp": 1509.0,
+    "games_played": 70,
     "avg_fp": 21.6
   },
   "Kyle Filipowski": {
     "player_id": "1642271",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642271.png",
     "season_fp": 1338.0,
+    "games_played": 71,
     "avg_fp": 18.8
   },
   "Al Horford": {
     "player_id": "201143",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201143.png",
     "season_fp": 1427.0,
+    "games_played": 70,
     "avg_fp": 20.4
   },
   "Jrue Holiday": {
     "player_id": "201950",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201950.png",
     "season_fp": 1639.0,
+    "games_played": 69,
     "avg_fp": 23.8
   },
   "Marcus Smart": {
     "player_id": "203935",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203935.png",
     "season_fp": 648.0,
+    "games_played": 36,
     "avg_fp": 18.0
   },
   "Kristaps Porzingis": {
     "player_id": "204001",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/204001.png",
     "season_fp": 1520.0,
+    "games_played": 51,
     "avg_fp": 29.8
   },
   "Richaun Holmes": {
     "player_id": "1626158",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626158.png",
     "season_fp": 608.0,
+    "games_played": 74,
     "avg_fp": 8.2
   },
   "Jaylen Brown": {
     "player_id": "1627759",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627759.png",
     "season_fp": 2337.0,
+    "games_played": 69,
     "avg_fp": 33.9
   },
   "Malcolm Brogdon": {
     "player_id": "1627763",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627763.png",
     "season_fp": 561.0,
+    "games_played": 30,
     "avg_fp": 18.7
   },
   "Jayson Tatum": {
     "player_id": "1628369",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628369.png",
     "season_fp": 3389.0,
+    "games_played": 75,
     "avg_fp": 45.2
   },
   "Derrick White": {
     "player_id": "1628401",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628401.png",
     "season_fp": 2690.0,
+    "games_played": 75,
     "avg_fp": 35.9
   },
   "Luke Kornet": {
     "player_id": "1628436",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628436.png",
     "season_fp": 1398.0,
+    "games_played": 75,
     "avg_fp": 18.6
   },
   "Torrey Craig": {
     "player_id": "1628470",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628470.png",
     "season_fp": 251.0,
+    "games_played": 54,
     "avg_fp": 4.6
   },
   "Jordan Poole": {
     "player_id": "1629673",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629673.png",
     "season_fp": 2278.0,
+    "games_played": 66,
     "avg_fp": 34.5
   },
   "Neemias Queta": {
     "player_id": "1629674",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629674.png",
     "season_fp": 771.0,
+    "games_played": 78,
     "avg_fp": 9.9
   },
   "Payton Pritchard": {
     "player_id": "1630202",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630202.png",
     "season_fp": 2217.0,
+    "games_played": 77,
     "avg_fp": 28.8
   },
   "Xavier Tillman": {
     "player_id": "1630214",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630214.png",
     "season_fp": 100.0,
+    "games_played": 72,
     "avg_fp": 1.4
   },
   "Anthony Gill": {
     "player_id": "1630264",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630264.png",
     "season_fp": 227.0,
+    "games_played": 74,
     "avg_fp": 3.1
   },
   "JT Thor": {
     "player_id": "1630550",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630550.png",
     "season_fp": 115.0,
+    "games_played": 34,
     "avg_fp": 3.4
   },
   "Justin Champagnie": {
     "player_id": "1630551",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630551.png",
     "season_fp": 1202.0,
+    "games_played": 59,
     "avg_fp": 20.4
   },
   "Sam Hauser": {
     "player_id": "1630573",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630573.png",
     "season_fp": 1158.0,
+    "games_played": 72,
     "avg_fp": 16.1
   },
   "Baylor Scheierman": {
     "player_id": "1631248",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631248.png",
     "season_fp": 225.0,
+    "games_played": 55,
     "avg_fp": 4.1
   },
   "Colby Jones": {
     "player_id": "1641732",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641732.png",
     "season_fp": 284.0,
+    "games_played": 58,
     "avg_fp": 4.9
   },
   "Jordan Walsh": {
     "player_id": "1641775",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641775.png",
     "season_fp": 205.0,
+    "games_played": 78,
     "avg_fp": 2.6
   },
   "Alex Sarr": {
     "player_id": "1642259",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642259.png",
     "season_fp": 1701.0,
+    "games_played": 68,
     "avg_fp": 25.0
   },
   "Bub Carrington": {
     "player_id": "1642267",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642267.png",
     "season_fp": 1723.0,
+    "games_played": 77,
     "avg_fp": 22.4
   },
   "Kyshawn George": {
     "player_id": "1642273",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642273.png",
     "season_fp": 1372.0,
+    "games_played": 71,
     "avg_fp": 19.3
   },
   "AJ Johnson": {
     "player_id": "1642358",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642358.png",
     "season_fp": 310.0,
+    "games_played": 39,
     "avg_fp": 7.9
   },
   "DeMar DeRozan": {
     "player_id": "201942",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201942.png",
     "season_fp": 2708.0,
+    "games_played": 73,
     "avg_fp": 37.1
   },
   "Tristan Thompson": {
     "player_id": "202684",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202684.png",
     "season_fp": 203.0,
+    "games_played": 78,
     "avg_fp": 2.6
   },
   "Jonas Valanciunas": {
     "player_id": "202685",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202685.png",
     "season_fp": 1858.0,
+    "games_played": 77,
     "avg_fp": 24.1
   },
   "Jae Crowder": {
     "player_id": "203109",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203109.png",
     "season_fp": 54.0,
+    "games_played": 56,
     "avg_fp": 1.0
   },
   "Zach LaVine": {
     "player_id": "203897",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203897.png",
     "season_fp": 2570.0,
+    "games_played": 70,
     "avg_fp": 36.7
   },
   "Doug McDermott": {
     "player_id": "203926",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203926.png",
     "season_fp": 194.0,
+    "games_played": 76,
     "avg_fp": 2.6
   },
   "Trey Lyles": {
     "player_id": "1626168",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626168.png",
     "season_fp": 1020.0,
+    "games_played": 67,
     "avg_fp": 15.2
   },
   "Domantas Sabonis": {
     "player_id": "1627734",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627734.png",
     "season_fp": 3005.0,
+    "games_played": 66,
     "avg_fp": 45.5
   },
   "Markelle Fultz": {
     "player_id": "1628365",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628365.png",
     "season_fp": 129.0,
+    "games_played": 24,
     "avg_fp": 5.4
   },
   "Malik Monk": {
     "player_id": "1628370",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628370.png",
     "season_fp": 2163.0,
+    "games_played": 65,
     "avg_fp": 33.3
   },
   "Donovan Mitchell": {
     "player_id": "1628378",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628378.png",
     "season_fp": 2900.0,
+    "games_played": 72,
     "avg_fp": 40.3
   },
   "Jarrett Allen": {
     "player_id": "1628386",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628386.png",
     "season_fp": 2722.0,
+    "games_played": 78,
     "avg_fp": 34.9
   },
   "Max Strus": {
     "player_id": "1629622",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629622.png",
     "season_fp": 1058.0,
+    "games_played": 48,
     "avg_fp": 22.0
   },
   "De'Andre Hunter": {
     "player_id": "1629631",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629631.png",
     "season_fp": 1594.0,
+    "games_played": 63,
     "avg_fp": 25.3
   },
   "Darius Garland": {
     "player_id": "1629636",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629636.png",
     "season_fp": 2806.0,
+    "games_played": 75,
     "avg_fp": 37.4
   },
   "Chuma Okeke": {
     "player_id": "1629643",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629643.png",
     "season_fp": 155.0,
+    "games_played": 11,
     "avg_fp": 14.1
   },
   "Ty Jerome": {
     "player_id": "1629660",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629660.png",
     "season_fp": 1703.0,
+    "games_played": 68,
     "avg_fp": 25.0
   },
   "Dean Wade": {
     "player_id": "1629731",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629731.png",
     "season_fp": 897.0,
+    "games_played": 56,
     "avg_fp": 16.0
   },
   "Javonte Green": {
     "player_id": "1629750",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629750.png",
     "season_fp": 945.0,
+    "games_played": 77,
     "avg_fp": 12.3
   },
   "Isaac Okoro": {
     "player_id": "1630171",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630171.png",
     "season_fp": 717.0,
+    "games_played": 52,
     "avg_fp": 13.8
   },
   "Sam Merrill": {
     "player_id": "1630241",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630241.png",
     "season_fp": 1065.0,
+    "games_played": 71,
     "avg_fp": 15.0
   },
   "Evan Mobley": {
     "player_id": "1630596",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630596.png",
     "season_fp": 2864.0,
+    "games_played": 69,
     "avg_fp": 41.5
   },
   "Keon Ellis": {
     "player_id": "1631165",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631165.png",
     "season_fp": 1721.0,
+    "games_played": 78,
     "avg_fp": 22.1
   },
   "Craig Porter Jr.": {
     "player_id": "1641854",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641854.png",
     "season_fp": 404.0,
+    "games_played": 68,
     "avg_fp": 5.9
   },
   "Devin Carter": {
     "player_id": "1642269",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642269.png",
     "season_fp": 273.0,
+    "games_played": 34,
     "avg_fp": 8.0
   },
   "Jaylon Tyson": {
     "player_id": "1642281",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642281.png",
     "season_fp": 285.0,
+    "games_played": 69,
     "avg_fp": 4.1
   },
   "Isaac Jones": {
     "player_id": "1642403",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642403.png",
     "season_fp": 242.0,
+    "games_played": 60,
     "avg_fp": 4.0
   },
   "Chris Paul": {
     "player_id": "101108",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/101108.png",
     "season_fp": 2359.0,
+    "games_played": 76,
     "avg_fp": 31.0
   },
   "Bismack Biyombo": {
     "player_id": "202687",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202687.png",
     "season_fp": 401.0,
+    "games_played": 26,
     "avg_fp": 15.4
   },
   "Harrison Barnes": {
     "player_id": "203084",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203084.png",
     "season_fp": 1648.0,
+    "games_played": 76,
     "avg_fp": 21.7
   },
   "Jerami Grant": {
     "player_id": "203924",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203924.png",
     "season_fp": 1197.0,
+    "games_played": 75,
     "avg_fp": 16.0
   },
   "Anfernee Simons": {
     "player_id": "1629014",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629014.png",
     "season_fp": 2212.0,
+    "games_played": 76,
     "avg_fp": 29.1
   },
   "Jordan McLaughlin": {
     "player_id": "1629162",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629162.png",
     "season_fp": 244.0,
+    "games_played": 76,
     "avg_fp": 3.2
   },
   "Keldon Johnson": {
     "player_id": "1629640",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629640.png",
     "season_fp": 1607.0,
+    "games_played": 73,
     "avg_fp": 22.0
   },
   "Charles Bassey": {
     "player_id": "1629646",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629646.png",
     "season_fp": 480.0,
+    "games_played": 53,
     "avg_fp": 9.1
   },
   "Matisse Thybulle": {
     "player_id": "1629680",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629680.png",
     "season_fp": 270.0,
+    "games_played": 66,
     "avg_fp": 4.1
   },
   "Deni Avdija": {
     "player_id": "1630166",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630166.png",
     "season_fp": 2338.0,
+    "games_played": 78,
     "avg_fp": 30.0
   },
   "Devin Vassell": {
     "player_id": "1630170",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630170.png",
     "season_fp": 1908.0,
+    "games_played": 61,
     "avg_fp": 31.3
   },
   "Sandro Mamukelashvili": {
     "player_id": "1630572",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630572.png",
     "season_fp": 708.0,
+    "games_played": 76,
     "avg_fp": 9.3
   },
   "Julian Champagnie": {
     "player_id": "1630577",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630577.png",
     "season_fp": 1483.0,
+    "games_played": 76,
     "avg_fp": 19.5
   },
   "Dalano Banton": {
     "player_id": "1630625",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630625.png",
     "season_fp": 1023.0,
+    "games_played": 78,
     "avg_fp": 13.1
   },
   "Scoot Henderson": {
     "player_id": "1630703",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630703.png",
     "season_fp": 1621.0,
+    "games_played": 78,
     "avg_fp": 20.8
   },
   "Shaedon Sharpe": {
     "player_id": "1631101",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631101.png",
     "season_fp": 2000.0,
+    "games_played": 79,
     "avg_fp": 25.3
   },
   "Malaki Branham": {
     "player_id": "1631103",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631103.png",
     "season_fp": 301.0,
+    "games_played": 72,
     "avg_fp": 4.2
   },
   "Blake Wesley": {
     "player_id": "1631104",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631104.png",
     "season_fp": 424.0,
+    "games_played": 76,
     "avg_fp": 5.6
   },
   "Jabari Walker": {
     "player_id": "1631133",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631133.png",
     "season_fp": 635.0,
+    "games_played": 75,
     "avg_fp": 8.5
   },
   "Kris Murray": {
     "player_id": "1631200",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631200.png",
     "season_fp": 614.0,
+    "games_played": 79,
     "avg_fp": 7.8
   },
   "Justin Minaya": {
     "player_id": "1631303",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631303.png",
     "season_fp": 32.0,
+    "games_played": 30,
     "avg_fp": 1.1
   },
   "Sidy Cissoko": {
     "player_id": "1631321",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631321.png",
     "season_fp": 41.0,
+    "games_played": 47,
     "avg_fp": 0.9
   },
   "Rayan Rupert": {
     "player_id": "1641712",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641712.png",
     "season_fp": 203.0,
+    "games_played": 74,
     "avg_fp": 2.7
   },
   "Toumani Camara": {
     "player_id": "1641739",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641739.png",
     "season_fp": 2078.0,
+    "games_played": 79,
     "avg_fp": 26.3
   },
   "Duop Reath": {
     "player_id": "1641871",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641871.png",
     "season_fp": 415.0,
+    "games_played": 78,
     "avg_fp": 5.3
   },
   "Stephon Castle": {
     "player_id": "1642264",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642264.png",
     "season_fp": 1834.0,
+    "games_played": 75,
     "avg_fp": 24.5
   },
   "Donovan Clingan": {
     "player_id": "1642270",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642270.png",
     "season_fp": 1439.0,
+    "games_played": 79,
     "avg_fp": 18.2
   },
   "Garrett Temple": {
     "player_id": "202066",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202066.png",
     "season_fp": 132.0,
+    "games_played": 75,
     "avg_fp": 1.8
   },
   "Chris Boucher": {
     "player_id": "1628449",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628449.png",
     "season_fp": 975.0,
+    "games_played": 75,
     "avg_fp": 13.0
   },
   "RJ Barrett": {
     "player_id": "1629628",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629628.png",
     "season_fp": 2051.0,
+    "games_played": 62,
     "avg_fp": 33.1
   },
   "Ziaire Williams": {
     "player_id": "1630533",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630533.png",
     "season_fp": 1264.0,
+    "games_played": 69,
     "avg_fp": 18.3
   },
   "Ochai Agbaji": {
     "player_id": "1630534",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630534.png",
     "season_fp": 1345.0,
+    "games_played": 64,
     "avg_fp": 21.0
   },
   "Keon Johnson": {
     "player_id": "1630553",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630553.png",
     "season_fp": 1549.0,
+    "games_played": 78,
     "avg_fp": 19.9
   },
   "Trendon Watford": {
     "player_id": "1630570",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630570.png",
     "season_fp": 693.0,
+    "games_played": 52,
     "avg_fp": 13.3
   },
   "Jalen Wilson": {
     "player_id": "1630592",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630592.png",
     "season_fp": 1167.0,
+    "games_played": 77,
     "avg_fp": 15.2
   },
   "Tyson Etienne": {
     "player_id": "1630623",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630623.png",
     "season_fp": 42.0,
+    "games_played": 6,
     "avg_fp": 7.0
   },
   "A.J. Lawson": {
     "player_id": "1630639",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630639.png",
     "season_fp": 336.0,
+    "games_played": 25,
     "avg_fp": 13.4
   },
   "Orlando Robinson": {
     "player_id": "1631115",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631115.png",
     "season_fp": 661.0,
+    "games_played": 61,
     "avg_fp": 10.8
   },
   "Drew Timme": {
     "player_id": "1631166",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631166.png",
     "season_fp": 110.0,
+    "games_played": 5,
     "avg_fp": 22.0
   },
   "Jared Rhoden": {
     "player_id": "1631197",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631197.png",
     "season_fp": 185.0,
+    "games_played": 24,
     "avg_fp": 7.7
   },
   "Tyrese Martin": {
     "player_id": "1631213",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631213.png",
     "season_fp": 964.0,
+    "games_played": 74,
     "avg_fp": 13.0
   },
   "Cole Swider": {
     "player_id": "1631306",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631306.png",
     "season_fp": 86.0,
+    "games_played": 21,
     "avg_fp": 4.1
   },
   "Maxwell Lewis": {
     "player_id": "1641721",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641721.png",
     "season_fp": 215.0,
+    "games_played": 48,
     "avg_fp": 4.5
   },
   "Dariq Whitehead": {
     "player_id": "1641727",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641727.png",
     "season_fp": 134.0,
+    "games_played": 30,
     "avg_fp": 4.5
   },
   "Noah Clowney": {
     "player_id": "1641730",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641730.png",
     "season_fp": 737.0,
+    "games_played": 59,
     "avg_fp": 12.5
   },
   "Reece Beekman": {
     "player_id": "1641736",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641736.png",
     "season_fp": 249.0,
+    "games_played": 43,
     "avg_fp": 5.8
   },
   "Tosan Evbuomwan": {
     "player_id": "1641787",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641787.png",
     "season_fp": 434.0,
+    "games_played": 26,
     "avg_fp": 16.7
   },
   "Ja'Kobe Walter": {
     "player_id": "1642266",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642266.png",
     "season_fp": 856.0,
+    "games_played": 57,
     "avg_fp": 15.0
   },
   "Jamal Shead": {
     "player_id": "1642347",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642347.png",
     "season_fp": 1238.0,
+    "games_played": 76,
     "avg_fp": 16.3
   },
   "Jamison Battle": {
     "player_id": "1642419",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642419.png",
     "season_fp": 703.0,
+    "games_played": 62,
     "avg_fp": 11.3
   },
   "LeBron James": {
     "player_id": "2544",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2544.png",
     "season_fp": 3255.0,
+    "games_played": 66,
     "avg_fp": 49.3
   },
   "Markieff Morris": {
     "player_id": "202693",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202693.png",
     "season_fp": 79.0,
+    "games_played": 75,
     "avg_fp": 1.1
   },
   "Alex Len": {
     "player_id": "203458",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203458.png",
     "season_fp": 312.0,
+    "games_played": 75,
     "avg_fp": 4.2
   },
   "Dorian Finney-Smith": {
     "player_id": "1627827",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627827.png",
     "season_fp": 1124.0,
+    "games_played": 64,
     "avg_fp": 17.6
   },
   "Alex Caruso": {
     "player_id": "1627936",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627936.png",
     "season_fp": 1152.0,
+    "games_played": 59,
     "avg_fp": 19.5
   },
   "Isaiah Hartenstein": {
     "player_id": "1628392",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628392.png",
     "season_fp": 1965.0,
+    "games_played": 57,
     "avg_fp": 34.5
   },
   "Shake Milton": {
     "player_id": "1629003",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629003.png",
     "season_fp": 623.0,
+    "games_played": 76,
     "avg_fp": 8.2
   },
   "Jarred Vanderbilt": {
     "player_id": "1629020",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629020.png",
     "season_fp": 454.0,
+    "games_played": 34,
     "avg_fp": 13.4
   },
   "Kenrich Williams": {
     "player_id": "1629026",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629026.png",
     "season_fp": 934.0,
+    "games_played": 69,
     "avg_fp": 13.5
   },
   "Rui Hachimura": {
     "player_id": "1629060",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629060.png",
     "season_fp": 1425.0,
+    "games_played": 59,
     "avg_fp": 24.2
   },
   "Gabe Vincent": {
     "player_id": "1629216",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629216.png",
     "season_fp": 888.0,
+    "games_played": 72,
     "avg_fp": 12.3
   },
   "Jaxson Hayes": {
     "player_id": "1629637",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629637.png",
     "season_fp": 971.0,
+    "games_played": 53,
     "avg_fp": 18.3
   },
   "Luguentz Dort": {
     "player_id": "1629652",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629652.png",
     "season_fp": 1667.0,
+    "games_played": 72,
     "avg_fp": 23.2
   },
   "Isaiah Joe": {
     "player_id": "1630198",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630198.png",
     "season_fp": 1331.0,
+    "games_played": 72,
     "avg_fp": 18.5
   },
   "Austin Reaves": {
     "player_id": "1630559",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630559.png",
     "season_fp": 2597.0,
+    "games_played": 68,
     "avg_fp": 38.2
   },
   "Aaron Wiggins": {
     "player_id": "1630598",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630598.png",
     "season_fp": 1605.0,
+    "games_played": 75,
     "avg_fp": 21.4
   },
   "Jordan Goodwin": {
     "player_id": "1630692",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630692.png",
     "season_fp": 369.0,
+    "games_played": 24,
     "avg_fp": 15.4
   },
   "Chet Holmgren": {
     "player_id": "1631096",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631096.png",
     "season_fp": 1064.0,
+    "games_played": 32,
     "avg_fp": 33.2
   },
   "Jalen Williams": {
     "player_id": "1631114",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631114.png",
     "season_fp": 2858.0,
+    "games_played": 72,
     "avg_fp": 39.7
   },
   "Jaylin Williams": {
     "player_id": "1631119",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631119.png",
     "season_fp": 859.0,
+    "games_played": 50,
     "avg_fp": 17.2
   },
   "Christian Koloko": {
     "player_id": "1631132",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631132.png",
     "season_fp": 251.0,
+    "games_played": 45,
     "avg_fp": 5.6
   },
   "Cason Wallace": {
     "player_id": "1641717",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641717.png",
     "season_fp": 1681.0,
+    "games_played": 70,
     "avg_fp": 24.0
   },
   "Dillon Jones": {
     "player_id": "1641794",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641794.png",
     "season_fp": 308.0,
+    "games_played": 62,
     "avg_fp": 5.0
   },
   "Dalton Knecht": {
     "player_id": "1642261",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642261.png",
     "season_fp": 1083.0,
+    "games_played": 74,
     "avg_fp": 14.6
   },
   "Bronny James": {
     "player_id": "1642355",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642355.png",
     "season_fp": 93.0,
+    "games_played": 50,
     "avg_fp": 1.9
   },
   "Taj Gibson": {
     "player_id": "201959",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201959.png",
     "season_fp": 279.0,
+    "games_played": 74,
     "avg_fp": 3.8
   },
   "Nikola Vucevic": {
@@ -1740,2113 +1988,2415 @@
     "position": null,
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202696.png",
     "season_fp": 2843.0,
+    "games_played": 71,
     "avg_fp": 40.0
   },
   "Seth Curry": {
     "player_id": "203552",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203552.png",
     "season_fp": 749.0,
+    "games_played": 72,
     "avg_fp": 10.4
   },
   "Jusuf Nurkic": {
     "player_id": "203994",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203994.png",
     "season_fp": 1013.0,
+    "games_played": 61,
     "avg_fp": 16.6
   },
   "Zach Collins": {
     "player_id": "1628380",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628380.png",
     "season_fp": 994.0,
+    "games_played": 70,
     "avg_fp": 14.2
   },
   "Miles Bridges": {
     "player_id": "1628970",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628970.png",
     "season_fp": 2228.0,
+    "games_played": 61,
     "avg_fp": 36.5
   },
   "Jevon Carter": {
     "player_id": "1628975",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628975.png",
     "season_fp": 265.0,
+    "games_played": 75,
     "avg_fp": 3.5
   },
   "Kevin Huerter": {
     "player_id": "1628989",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628989.png",
     "season_fp": 1348.0,
+    "games_played": 68,
     "avg_fp": 19.8
   },
   "Josh Okogie": {
     "player_id": "1629006",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629006.png",
     "season_fp": 593.0,
+    "games_played": 48,
     "avg_fp": 12.4
   },
   "DaQuan Jeffries": {
     "player_id": "1629610",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629610.png",
     "season_fp": 599.0,
+    "games_played": 52,
     "avg_fp": 11.5
   },
   "Talen Horton-Tucker": {
     "player_id": "1629659",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629659.png",
     "season_fp": 597.0,
+    "games_played": 75,
     "avg_fp": 8.0
   },
   "Patrick Williams": {
     "player_id": "1630172",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630172.png",
     "season_fp": 1075.0,
+    "games_played": 59,
     "avg_fp": 18.2
   },
   "Jalen Smith": {
     "player_id": "1630188",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630188.png",
     "season_fp": 1152.0,
+    "games_played": 71,
     "avg_fp": 16.2
   },
   "Josh Giddey": {
     "player_id": "1630581",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630581.png",
     "season_fp": 2622.0,
+    "games_played": 70,
     "avg_fp": 37.5
   },
   "E.J. Liddell": {
     "player_id": "1630604",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630604.png",
     "season_fp": 33.0,
+    "games_played": 20,
     "avg_fp": 1.6
   },
   "Mark Williams": {
     "player_id": "1631109",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631109.png",
     "season_fp": 1479.0,
+    "games_played": 41,
     "avg_fp": 36.1
   },
   "Dalen Terry": {
     "player_id": "1631207",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631207.png",
     "season_fp": 722.0,
+    "games_played": 73,
     "avg_fp": 9.9
   },
   "Moussa Diabate": {
     "player_id": "1631217",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631217.png",
     "season_fp": 1125.0,
+    "games_played": 69,
     "avg_fp": 16.3
   },
   "Jaylen Sims": {
     "player_id": "1631301",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631301.png",
     "season_fp": 21.0,
+    "games_played": 2,
     "avg_fp": 10.5
   },
   "Nick Smith Jr.": {
     "player_id": "1641733",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641733.png",
     "season_fp": 796.0,
+    "games_played": 66,
     "avg_fp": 12.1
   },
   "Julian Phillips": {
     "player_id": "1641763",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641763.png",
     "season_fp": 700.0,
+    "games_played": 76,
     "avg_fp": 9.2
   },
   "Emanuel Miller": {
     "player_id": "1641801",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641801.png",
     "season_fp": 6.0,
+    "games_played": 10,
     "avg_fp": 0.6
   },
   "Matas Buzelis": {
     "player_id": "1641824",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641824.png",
     "season_fp": 1284.0,
+    "games_played": 77,
     "avg_fp": 16.7
   },
   "Tidjane Salaun": {
     "player_id": "1642275",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642275.png",
     "season_fp": 698.0,
+    "games_played": 57,
     "avg_fp": 12.2
   },
   "KJ Simpson": {
     "player_id": "1642354",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642354.png",
     "season_fp": 533.0,
+    "games_played": 46,
     "avg_fp": 11.6
   },
   "Jahmir Young": {
     "player_id": "1642443",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642443.png",
     "season_fp": 2.0,
+    "games_played": 8,
     "avg_fp": 0.2
   },
   "Nicolas Batum": {
     "player_id": "201587",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201587.png",
     "season_fp": 980.0,
+    "games_played": 75,
     "avg_fp": 13.1
   },
   "James Harden": {
     "player_id": "201935",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201935.png",
     "season_fp": 3253.0,
+    "games_played": 74,
     "avg_fp": 44.0
   },
   "Patty Mills": {
     "player_id": "201988",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201988.png",
     "season_fp": 209.0,
+    "games_played": 74,
     "avg_fp": 2.8
   },
   "Klay Thompson": {
     "player_id": "202691",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202691.png",
     "season_fp": 1712.0,
+    "games_played": 73,
     "avg_fp": 23.5
   },
   "Kawhi Leonard": {
     "player_id": "202695",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202695.png",
     "season_fp": 1250.0,
+    "games_played": 33,
     "avg_fp": 37.9
   },
   "Anthony Davis": {
     "player_id": "203076",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203076.png",
     "season_fp": 2535.0,
+    "games_played": 53,
     "avg_fp": 47.8
   },
   "Spencer Dinwiddie": {
     "player_id": "203915",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203915.png",
     "season_fp": 1841.0,
+    "games_played": 79,
     "avg_fp": 23.3
   },
   "Dwight Powell": {
     "player_id": "203939",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203939.png",
     "season_fp": 459.0,
+    "games_played": 63,
     "avg_fp": 7.3
   },
   "Bogdan Bogdanovic": {
     "player_id": "43306",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/43306.png",
     "season_fp": 1032.0,
+    "games_played": 56,
     "avg_fp": 18.4
   },
   "Norman Powell": {
     "player_id": "1626181",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626181.png",
     "season_fp": 1886.0,
+    "games_played": 57,
     "avg_fp": 33.1
   },
   "Ben Simmons": {
     "player_id": "1627732",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627732.png",
     "season_fp": 1081.0,
+    "games_played": 51,
     "avg_fp": 21.2
   },
   "Kris Dunn": {
     "player_id": "1627739",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627739.png",
     "season_fp": 1530.0,
+    "games_played": 71,
     "avg_fp": 21.5
   },
   "Ivica Zubac": {
     "player_id": "1627826",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627826.png",
     "season_fp": 3012.0,
+    "games_played": 75,
     "avg_fp": 40.2
   },
   "Derrick Jones Jr.": {
     "player_id": "1627884",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627884.png",
     "season_fp": 1467.0,
+    "games_played": 72,
     "avg_fp": 20.4
   },
   "Caleb Martin": {
     "player_id": "1628997",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628997.png",
     "season_fp": 797.0,
+    "games_played": 55,
     "avg_fp": 14.5
   },
   "P.J. Washington": {
     "player_id": "1629023",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629023.png",
     "season_fp": 1706.0,
+    "games_played": 69,
     "avg_fp": 24.7
   },
   "Drew Eubanks": {
     "player_id": "1629234",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629234.png",
     "season_fp": 721.0,
+    "games_played": 71,
     "avg_fp": 10.2
   },
   "Daniel Gafford": {
     "player_id": "1629655",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629655.png",
     "season_fp": 1620.0,
+    "games_played": 64,
     "avg_fp": 25.3
   },
   "Naji Marshall": {
     "player_id": "1630230",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630230.png",
     "season_fp": 1725.0,
+    "games_played": 70,
     "avg_fp": 24.6
   },
   "Kai Jones": {
     "player_id": "1630539",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630539.png",
     "season_fp": 521.0,
+    "games_played": 54,
     "avg_fp": 9.6
   },
   "Jaden Hardy": {
     "player_id": "1630702",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630702.png",
     "season_fp": 685.0,
+    "games_played": 71,
     "avg_fp": 9.6
   },
   "Max Christie": {
     "player_id": "1631108",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631108.png",
     "season_fp": 1436.0,
+    "games_played": 76,
     "avg_fp": 18.9
   },
   "Patrick Baldwin Jr.": {
     "player_id": "1631116",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631116.png",
     "season_fp": 108.0,
+    "games_played": 38,
     "avg_fp": 2.8
   },
   "Dereck Lively II": {
     "player_id": "1641726",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641726.png",
     "season_fp": 993.0,
+    "games_played": 43,
     "avg_fp": 23.1
   },
   "Kobe Brown": {
     "player_id": "1641738",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641738.png",
     "season_fp": 187.0,
+    "games_played": 65,
     "avg_fp": 2.9
   },
   "Jordan Miller": {
     "player_id": "1641757",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641757.png",
     "season_fp": 301.0,
+    "games_played": 58,
     "avg_fp": 5.2
   },
   "Cam Christie": {
     "player_id": "1642353",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642353.png",
     "season_fp": 46.0,
+    "games_played": 21,
     "avg_fp": 2.2
   },
   "Brook Lopez": {
     "player_id": "201572",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201572.png",
     "season_fp": 2405.0,
+    "games_played": 77,
     "avg_fp": 31.2
   },
   "Alec Burks": {
     "player_id": "202692",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202692.png",
     "season_fp": 653.0,
+    "games_played": 76,
     "avg_fp": 8.6
   },
   "Kyle Anderson": {
     "player_id": "203937",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203937.png",
     "season_fp": 948.0,
+    "games_played": 73,
     "avg_fp": 13.0
   },
   "Andrew Wiggins": {
     "player_id": "203952",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203952.png",
     "season_fp": 1832.0,
+    "games_played": 71,
     "avg_fp": 25.8
   },
   "Terry Rozier": {
     "player_id": "1626179",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626179.png",
     "season_fp": 1224.0,
+    "games_played": 78,
     "avg_fp": 15.7
   },
   "Pat Connaughton": {
     "player_id": "1626192",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626192.png",
     "season_fp": 428.0,
+    "games_played": 68,
     "avg_fp": 6.3
   },
   "Taurean Prince": {
     "player_id": "1627752",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627752.png",
     "season_fp": 1505.0,
+    "games_played": 77,
     "avg_fp": 19.5
   },
   "Bam Adebayo": {
     "player_id": "1628389",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628389.png",
     "season_fp": 2996.0,
+    "games_played": 78,
     "avg_fp": 38.4
   },
   "Kyle Kuzma": {
     "player_id": "1628398",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628398.png",
     "season_fp": 1361.0,
+    "games_played": 60,
     "avg_fp": 22.7
   },
   "Gary Trent Jr.": {
     "player_id": "1629018",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629018.png",
     "season_fp": 1384.0,
+    "games_played": 71,
     "avg_fp": 19.5
   },
   "Duncan Robinson": {
     "player_id": "1629130",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629130.png",
     "season_fp": 1368.0,
+    "games_played": 76,
     "avg_fp": 18.0
   },
   "Haywood Highsmith": {
     "player_id": "1629312",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629312.png",
     "season_fp": 1240.0,
+    "games_played": 78,
     "avg_fp": 15.9
   },
   "Tyler Herro": {
     "player_id": "1629639",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629639.png",
     "season_fp": 3064.0,
+    "games_played": 78,
     "avg_fp": 39.3
   },
   "Kevin Porter Jr.": {
     "player_id": "1629645",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629645.png",
     "season_fp": 1424.0,
+    "games_played": 73,
     "avg_fp": 19.5
   },
   "Josh Christopher": {
     "player_id": "1630528",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630528.png",
     "season_fp": 11.0,
+    "games_played": 31,
     "avg_fp": 0.4
   },
   "Davion Mitchell": {
     "player_id": "1630558",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630558.png",
     "season_fp": 1463.0,
+    "games_played": 76,
     "avg_fp": 19.2
   },
   "Stanley Umude": {
     "player_id": "1630649",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630649.png",
     "season_fp": 38.0,
+    "games_played": 46,
     "avg_fp": 0.8
   },
   "Ryan Rollins": {
     "player_id": "1631157",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631157.png",
     "season_fp": 723.0,
+    "games_played": 67,
     "avg_fp": 10.8
   },
   "Jaime Jaquez Jr.": {
     "player_id": "1631170",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631170.png",
     "season_fp": 1141.0,
+    "games_played": 77,
     "avg_fp": 14.8
   },
   "AJ Green": {
     "player_id": "1631260",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631260.png",
     "season_fp": 1052.0,
+    "games_played": 70,
     "avg_fp": 15.0
   },
   "Andre Jackson Jr.": {
     "player_id": "1641748",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641748.png",
     "season_fp": 634.0,
+    "games_played": 77,
     "avg_fp": 8.2
   },
   "Chris Livingston": {
     "player_id": "1641753",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641753.png",
     "season_fp": 50.0,
+    "games_played": 50,
     "avg_fp": 1.0
   },
   "Pelle Larsson": {
     "player_id": "1641796",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641796.png",
     "season_fp": 535.0,
+    "games_played": 78,
     "avg_fp": 6.9
   },
   "Isaiah Stevens": {
     "player_id": "1641815",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641815.png",
     "season_fp": 4.0,
+    "games_played": 18,
     "avg_fp": 0.2
   },
   "Tyler Smith": {
     "player_id": "1641890",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641890.png",
     "season_fp": 86.0,
+    "games_played": 51,
     "avg_fp": 1.7
   },
   "Kel'el Ware": {
     "player_id": "1642276",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642276.png",
     "season_fp": 1440.0,
+    "games_played": 73,
     "avg_fp": 19.7
   },
   "Keshad Johnson": {
     "player_id": "1642352",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642352.png",
     "season_fp": 56.0,
+    "games_played": 46,
     "avg_fp": 1.2
   },
   "Dennis Schroder": {
     "player_id": "203471",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203471.png",
     "season_fp": 1905.0,
+    "games_played": 75,
     "avg_fp": 25.4
   },
   "Tim Hardaway Jr.": {
     "player_id": "203501",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203501.png",
     "season_fp": 1324.0,
+    "games_played": 76,
     "avg_fp": 17.4
   },
   "Malik Beasley": {
     "player_id": "1627736",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627736.png",
     "season_fp": 2004.0,
+    "games_played": 78,
     "avg_fp": 25.7
   },
   "Luke Kennard": {
     "player_id": "1628379",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628379.png",
     "season_fp": 1320.0,
+    "games_played": 65,
     "avg_fp": 20.3
   },
   "Marvin Bagley III": {
     "player_id": "1628963",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628963.png",
     "season_fp": 234.0,
+    "games_played": 50,
     "avg_fp": 4.7
   },
   "Jaren Jackson Jr.": {
     "player_id": "1628991",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628991.png",
     "season_fp": 2812.0,
+    "games_played": 71,
     "avg_fp": 39.6
   },
   "Ja Morant": {
     "player_id": "1629630",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629630.png",
     "season_fp": 1836.0,
+    "games_played": 50,
     "avg_fp": 36.7
   },
   "John Konchar": {
     "player_id": "1629723",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629723.png",
     "season_fp": 434.0,
+    "games_played": 73,
     "avg_fp": 5.9
   },
   "Isaiah Stewart": {
     "player_id": "1630191",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630191.png",
     "season_fp": 1459.0,
+    "games_played": 74,
     "avg_fp": 19.7
   },
   "Paul Reed": {
     "player_id": "1630194",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630194.png",
     "season_fp": 554.0,
+    "games_played": 78,
     "avg_fp": 7.1
   },
   "Lamar Stevens": {
     "player_id": "1630205",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630205.png",
     "season_fp": 93.0,
+    "games_played": 21,
     "avg_fp": 4.4
   },
   "Desmond Bane": {
     "player_id": "1630217",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630217.png",
     "season_fp": 2560.0,
+    "games_played": 66,
     "avg_fp": 38.8
   },
   "Lindy Waters III": {
     "player_id": "1630322",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630322.png",
     "season_fp": 542.0,
+    "games_played": 76,
     "avg_fp": 7.1
   },
   "Santi Aldama": {
     "player_id": "1630583",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630583.png",
     "season_fp": 1784.0,
+    "games_played": 64,
     "avg_fp": 27.9
   },
   "Scotty Pippen Jr.": {
     "player_id": "1630590",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630590.png",
     "season_fp": 1932.0,
+    "games_played": 78,
     "avg_fp": 24.8
   },
   "Cade Cunningham": {
     "player_id": "1630595",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630595.png",
     "season_fp": 3222.0,
+    "games_played": 71,
     "avg_fp": 45.4
   },
   "Jay Huff": {
     "player_id": "1630643",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630643.png",
     "season_fp": 873.0,
+    "games_played": 74,
     "avg_fp": 11.8
   },
   "Ron Harper Jr.": {
     "player_id": "1631199",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631199.png",
     "season_fp": 0.0,
+    "games_played": 7,
     "avg_fp": 0.0
   },
   "Marcus Sasser": {
     "player_id": "1631204",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631204.png",
     "season_fp": 740.0,
+    "games_played": 78,
     "avg_fp": 9.5
   },
   "Simone Fontecchio": {
     "player_id": "1631323",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631323.png",
     "season_fp": 814.0,
+    "games_played": 72,
     "avg_fp": 11.3
   },
   "Ausar Thompson": {
     "player_id": "1641709",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641709.png",
     "season_fp": 1474.0,
+    "games_played": 57,
     "avg_fp": 25.9
   },
   "GG Jackson": {
     "player_id": "1641713",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641713.png",
     "season_fp": 318.0,
+    "games_played": 32,
     "avg_fp": 9.9
   },
   "Zach Edey": {
     "player_id": "1641744",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641744.png",
     "season_fp": 1549.0,
+    "games_played": 64,
     "avg_fp": 24.2
   },
   "Bobi Klintman": {
     "player_id": "1641752",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641752.png",
     "season_fp": 6.0,
+    "games_played": 19,
     "avg_fp": 0.3
   },
   "Ronald Holland II": {
     "player_id": "1641842",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641842.png",
     "season_fp": 953.0,
+    "games_played": 78,
     "avg_fp": 12.2
   },
   "Cam Spencer": {
     "player_id": "1642285",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642285.png",
     "season_fp": 181.0,
+    "games_played": 36,
     "avg_fp": 5.0
   },
   "Jaylen Wells": {
     "player_id": "1642377",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642377.png",
     "season_fp": 1430.0,
+    "games_played": 78,
     "avg_fp": 18.3
   },
   "Tolu Smith": {
     "player_id": "1642449",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642449.png",
     "season_fp": 0.0,
+    "games_played": 6,
     "avg_fp": 0.0
   },
   "Daniss Jenkins": {
     "player_id": "1642450",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642450.png",
     "season_fp": 2.0,
+    "games_played": 24,
     "avg_fp": 0.1
   },
   "Yuki Kawamura": {
     "player_id": "1642530",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642530.png",
     "season_fp": 51.0,
+    "games_played": 43,
     "avg_fp": 1.2
   },
   "Mike Conley": {
     "player_id": "201144",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201144.png",
     "season_fp": 1584.0,
+    "games_played": 68,
     "avg_fp": 23.3
   },
   "Andre Drummond": {
     "player_id": "203083",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203083.png",
     "season_fp": 758.0,
+    "games_played": 60,
     "avg_fp": 12.6
   },
   "Rudy Gobert": {
     "player_id": "203497",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203497.png",
     "season_fp": 2285.0,
+    "games_played": 68,
     "avg_fp": 33.6
   },
   "Julius Randle": {
     "player_id": "203944",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203944.png",
     "season_fp": 2146.0,
+    "games_played": 65,
     "avg_fp": 33.0
   },
   "Joe Ingles": {
     "player_id": "56022",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/56022.png",
     "season_fp": 54.0,
+    "games_played": 65,
     "avg_fp": 0.8
   },
   "Kelly Oubre Jr.": {
     "player_id": "1626162",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626162.png",
     "season_fp": 1798.0,
+    "games_played": 76,
     "avg_fp": 23.7
   },
   "Guerschon Yabusele": {
     "player_id": "1627824",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627824.png",
     "season_fp": 1680.0,
+    "games_played": 76,
     "avg_fp": 22.1
   },
   "Donte DiVincenzo": {
     "player_id": "1628978",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628978.png",
     "season_fp": 1526.0,
+    "games_played": 59,
     "avg_fp": 25.9
   },
   "Lonnie Walker IV": {
     "player_id": "1629022",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629022.png",
     "season_fp": 294.0,
+    "games_played": 19,
     "avg_fp": 15.5
   },
   "Nickeil Alexander-Walker": {
     "player_id": "1629638",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629638.png",
     "season_fp": 1575.0,
+    "games_played": 78,
     "avg_fp": 20.2
   },
   "Quentin Grimes": {
     "player_id": "1629656",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629656.png",
     "season_fp": 1935.0,
+    "games_played": 76,
     "avg_fp": 25.5
   },
   "Naz Reid": {
     "player_id": "1629675",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629675.png",
     "season_fp": 2264.0,
+    "games_played": 77,
     "avg_fp": 29.4
   },
   "Anthony Edwards": {
     "player_id": "1630162",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png",
     "season_fp": 3271.0,
+    "games_played": 76,
     "avg_fp": 43.0
   },
   "Jaden McDaniels": {
     "player_id": "1630183",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630183.png",
     "season_fp": 2297.0,
+    "games_played": 78,
     "avg_fp": 29.4
   },
   "Jared Butler": {
     "player_id": "1630215",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630215.png",
     "season_fp": 1008.0,
+    "games_played": 69,
     "avg_fp": 14.6
   },
   "Bones Hyland": {
     "player_id": "1630538",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630538.png",
     "season_fp": 281.0,
+    "games_played": 59,
     "avg_fp": 4.8
   },
   "Marcus Bagley": {
     "player_id": "1630542",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630542.png",
     "season_fp": 91.0,
+    "games_played": 6,
     "avg_fp": 15.2
   },
   "Luka Garza": {
     "player_id": "1630568",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630568.png",
     "season_fp": 225.0,
+    "games_played": 70,
     "avg_fp": 3.2
   },
   "Colin Castleton": {
     "player_id": "1630658",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630658.png",
     "season_fp": 233.0,
+    "games_played": 33,
     "avg_fp": 7.1
   },
   "Leonard Miller": {
     "player_id": "1631159",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631159.png",
     "season_fp": 33.0,
+    "games_played": 48,
     "avg_fp": 0.7
   },
   "Josh Minott": {
     "player_id": "1631169",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631169.png",
     "season_fp": 288.0,
+    "games_played": 77,
     "avg_fp": 3.7
   },
   "Jalen Hood-Schifino": {
     "player_id": "1641720",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641720.png",
     "season_fp": 177.0,
+    "games_played": 16,
     "avg_fp": 11.1
   },
   "Adem Bona": {
     "player_id": "1641737",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641737.png",
     "season_fp": 800.0,
+    "games_played": 72,
     "avg_fp": 11.1
   },
   "Jaylen Clark": {
     "player_id": "1641740",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641740.png",
     "season_fp": 397.0,
+    "games_played": 48,
     "avg_fp": 8.3
   },
   "Ricky Council IV": {
     "player_id": "1641741",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641741.png",
     "season_fp": 889.0,
+    "games_played": 78,
     "avg_fp": 11.4
   },
   "Rob Dillingham": {
     "player_id": "1642265",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642265.png",
     "season_fp": 436.0,
+    "games_played": 64,
     "avg_fp": 6.8
   },
   "Justin Edwards": {
     "player_id": "1642348",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642348.png",
     "season_fp": 898.0,
+    "games_played": 56,
     "avg_fp": 16.0
   },
   "MarJon Beauchamp": {
     "player_id": "1630699",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630699.png",
     "season_fp": 118.0,
+    "games_played": 64,
     "avg_fp": 1.8
   },
   "Kevin McCullar Jr.": {
     "player_id": "1641755",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641755.png",
     "season_fp": 1.0,
+    "games_played": 3,
     "avg_fp": 0.3
   },
   "Kelly Olynyk": {
     "player_id": "203482",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203482.png",
     "season_fp": 896.0,
+    "games_played": 48,
     "avg_fp": 18.7
   },
   "Elfrid Payton": {
     "player_id": "203901",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203901.png",
     "season_fp": 346.0,
+    "games_played": 23,
     "avg_fp": 15.0
   },
   "Bruce Brown": {
     "player_id": "1628971",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628971.png",
     "season_fp": 681.0,
+    "games_played": 42,
     "avg_fp": 16.2
   },
   "Kylor Kelley": {
     "player_id": "1630283",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630283.png",
     "season_fp": 60.0,
+    "games_played": 14,
     "avg_fp": 4.3
   },
   "Jeremiah Robinson-Earl": {
     "player_id": "1630526",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630526.png",
     "season_fp": 896.0,
+    "games_played": 75,
     "avg_fp": 11.9
   },
   "Jose Alvarado": {
     "player_id": "1630631",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630631.png",
     "season_fp": 1339.0,
+    "games_played": 60,
     "avg_fp": 22.3
   },
   "Keion Brooks Jr.": {
     "player_id": "1631232",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631232.png",
     "season_fp": 149.0,
+    "games_played": 14,
     "avg_fp": 10.6
   },
   "Karlo Matkovic": {
     "player_id": "1631255",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631255.png",
     "season_fp": 749.0,
+    "games_played": 51,
     "avg_fp": 14.7
   },
   "Jamal Cain": {
     "player_id": "1631288",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631288.png",
     "season_fp": 275.0,
+    "games_played": 46,
     "avg_fp": 6.0
   },
   "Lester Quinones": {
     "player_id": "1631311",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631311.png",
     "season_fp": 30.0,
+    "games_played": 15,
     "avg_fp": 2.0
   },
   "Antonio Reeves": {
     "player_id": "1641810",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641810.png",
     "season_fp": 349.0,
+    "games_played": 64,
     "avg_fp": 5.5
   },
   "Trey Jemison III": {
     "player_id": "1641998",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641998.png",
     "season_fp": 250.0,
+    "games_played": 48,
     "avg_fp": 5.2
   },
   "Yves Missi": {
     "player_id": "1642274",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642274.png",
     "season_fp": 1752.0,
+    "games_played": 75,
     "avg_fp": 23.4
   },
   "Trentyn Flowers": {
     "player_id": "1642280",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642280.png",
     "season_fp": 11.0,
+    "games_played": 13,
     "avg_fp": 0.8
   },
   "Braxton Key": {
     "player_id": "1630296",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630296.png",
     "season_fp": 0.0,
+    "games_played": 5,
     "avg_fp": 0.0
   },
   "Spencer Jones": {
     "player_id": "1642461",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642461.png",
     "season_fp": 72.0,
+    "games_played": 44,
     "avg_fp": 1.6
   },
   "Deandre Ayton": {
     "player_id": "1629028",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629028.png",
     "season_fp": 1300.0,
+    "games_played": 64,
     "avg_fp": 20.3
   },
   "Branden Carlson": {
     "player_id": "1642382",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642382.png",
     "season_fp": 228.0,
+    "games_played": 46,
     "avg_fp": 5.0
   },
   "Luke Travers": {
     "player_id": "1631247",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631247.png",
     "season_fp": 23.0,
+    "games_played": 21,
     "avg_fp": 1.1
   },
   "Emoni Bates": {
     "player_id": "1641734",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641734.png",
     "season_fp": 14.0,
+    "games_played": 16,
     "avg_fp": 0.9
   },
   "Nae'Qwan Tomlin": {
     "player_id": "1641772",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641772.png",
     "season_fp": 17.0,
+    "games_played": 9,
     "avg_fp": 1.9
   },
   "Drew Peterson": {
     "player_id": "1641809",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641809.png",
     "season_fp": 122.0,
+    "games_played": 37,
     "avg_fp": 3.3
   },
   "Jakob Poeltl": {
     "player_id": "1627751",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627751.png",
     "season_fp": 2114.0,
+    "games_played": 66,
     "avg_fp": 32.0
   },
   "Immanuel Quickley": {
     "player_id": "1630193",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630193.png",
     "season_fp": 1039.0,
+    "games_played": 42,
     "avg_fp": 24.7
   },
   "Jalen Duren": {
     "player_id": "1631105",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631105.png",
     "season_fp": 2451.0,
+    "games_played": 74,
     "avg_fp": 33.1
   },
   "Grant Williams": {
     "player_id": "1629684",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629684.png",
     "season_fp": 396.0,
+    "games_played": 41,
     "avg_fp": 9.7
   },
   "Keegan Murray": {
     "player_id": "1631099",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631099.png",
     "season_fp": 2079.0,
+    "games_played": 74,
     "avg_fp": 28.1
   },
   "Pascal Siakam": {
     "player_id": "1627783",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627783.png",
     "season_fp": 2891.0,
+    "games_played": 77,
     "avg_fp": 37.5
   },
   "Ben Sheppard": {
     "player_id": "1641767",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641767.png",
     "season_fp": 861.0,
+    "games_played": 71,
     "avg_fp": 12.1
   },
   "Taran Armstrong": {
     "player_id": "1642379",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642379.png",
     "season_fp": 0.0,
+    "games_played": 5,
     "avg_fp": 0.0
   },
   "D'Angelo Russell": {
     "player_id": "1626156",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626156.png",
     "season_fp": 1537.0,
+    "games_played": 68,
     "avg_fp": 22.6
   },
   "Nic Claxton": {
     "player_id": "1629651",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629651.png",
     "season_fp": 1958.0,
+    "games_played": 67,
     "avg_fp": 29.2
   },
   "Scottie Barnes": {
     "player_id": "1630567",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630567.png",
     "season_fp": 2511.0,
+    "games_played": 64,
     "avg_fp": 39.2
   },
   "Cory Joseph": {
     "player_id": "202709",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202709.png",
     "season_fp": 423.0,
+    "games_played": 77,
     "avg_fp": 5.5
   },
   "Kentavious Caldwell-Pope": {
     "player_id": "203484",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203484.png",
     "season_fp": 1465.0,
+    "games_played": 75,
     "avg_fp": 19.5
   },
   "Gary Harris": {
     "player_id": "203914",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203914.png",
     "season_fp": 335.0,
+    "games_played": 51,
     "avg_fp": 6.6
   },
   "Jonathan Isaac": {
     "player_id": "1628371",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628371.png",
     "season_fp": 1126.0,
+    "games_played": 74,
     "avg_fp": 15.2
   },
   "Wendell Carter Jr.": {
     "player_id": "1628976",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628976.png",
     "season_fp": 1443.0,
+    "games_played": 65,
     "avg_fp": 22.2
   },
   "ga Bitadze": {
     "player_id": "1629048",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629048.png",
     "season_fp": 1623.0,
+    "games_played": 69,
     "avg_fp": 23.5
   },
   "Cole Anthony": {
     "player_id": "1630175",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630175.png",
     "season_fp": 1184.0,
+    "games_played": 72,
     "avg_fp": 16.4
   },
   "Trevelin Queen": {
     "player_id": "1630243",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630243.png",
     "season_fp": 324.0,
+    "games_played": 47,
     "avg_fp": 6.9
   },
   "Franz Wagner": {
     "player_id": "1630532",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630532.png",
     "season_fp": 2310.0,
+    "games_played": 57,
     "avg_fp": 40.5
   },
   "Paolo Banchero": {
     "player_id": "1631094",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631094.png",
     "season_fp": 1743.0,
+    "games_played": 43,
     "avg_fp": 40.5
   },
   "Caleb Houstan": {
     "player_id": "1631216",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631216.png",
     "season_fp": 379.0,
+    "games_played": 76,
     "avg_fp": 5.0
   },
   "Anthony Black": {
     "player_id": "1641710",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641710.png",
     "season_fp": 1469.0,
+    "games_played": 75,
     "avg_fp": 19.6
   },
   "Jett Howard": {
     "player_id": "1641724",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641724.png",
     "season_fp": 399.0,
+    "games_played": 76,
     "avg_fp": 5.2
   },
   "Tristan Vukcevic": {
     "player_id": "1641774",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641774.png",
     "season_fp": 468.0,
+    "games_played": 42,
     "avg_fp": 11.1
   },
   "Tristan da Silva": {
     "player_id": "1641783",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641783.png",
     "season_fp": 1006.0,
+    "games_played": 76,
     "avg_fp": 13.2
   },
   "Jaylen Martin": {
     "player_id": "1641798",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641798.png",
     "season_fp": 124.0,
+    "games_played": 27,
     "avg_fp": 4.6
   },
   "Phillip Wheeler": {
     "player_id": "1630762",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630762.png",
     "season_fp": 15.0,
+    "games_played": 5,
     "avg_fp": 3.0
   },
   "Jamaree Bouyea": {
     "player_id": "1631123",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631123.png",
     "season_fp": 5.0,
+    "games_played": 8,
     "avg_fp": 0.6
   },
   "Pete Nance": {
     "player_id": "1631250",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631250.png",
     "season_fp": 34.0,
+    "games_played": 29,
     "avg_fp": 1.2
   },
   "Tobias Harris": {
     "player_id": "202699",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202699.png",
     "season_fp": 2064.0,
+    "games_played": 73,
     "avg_fp": 28.3
   },
   "Adam Flagler": {
     "player_id": "1641745",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641745.png",
     "season_fp": 84.0,
+    "games_played": 46,
     "avg_fp": 1.8
   },
   "Jordan Clarkson": {
     "player_id": "203903",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203903.png",
     "season_fp": 932.0,
+    "games_played": 40,
     "avg_fp": 23.3
   },
   "John Collins": {
     "player_id": "1628381",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628381.png",
     "season_fp": 1418.0,
+    "games_played": 43,
     "avg_fp": 33.0
   },
   "JD Davison": {
     "player_id": "1631120",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631120.png",
     "season_fp": 39.0,
+    "games_played": 23,
     "avg_fp": 1.7
   },
   "Josh Green": {
     "player_id": "1630182",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630182.png",
     "season_fp": 1097.0,
+    "games_played": 66,
     "avg_fp": 16.6
   },
   "Quenton Jackson": {
     "player_id": "1631245",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631245.png",
     "season_fp": 323.0,
+    "games_played": 48,
     "avg_fp": 6.7
   },
   "Damion Baugh": {
     "player_id": "1641878",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641878.png",
     "season_fp": 206.0,
+    "games_played": 13,
     "avg_fp": 15.8
   },
   "Kyle Lowry": {
     "player_id": "200768",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/200768.png",
     "season_fp": 511.0,
+    "games_played": 38,
     "avg_fp": 13.4
   },
   "Alex Reese": {
     "player_id": "1642024",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642024.png",
     "season_fp": 189.0,
+    "games_played": 16,
     "avg_fp": 11.8
   },
   "Lonzo Ball": {
     "player_id": "1628366",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628366.png",
     "season_fp": 786.0,
+    "games_played": 39,
     "avg_fp": 20.2
   },
   "Vince Williams Jr.": {
     "player_id": "1631246",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631246.png",
     "season_fp": 316.0,
+    "games_played": 25,
     "avg_fp": 12.6
   },
   "Cody Williams": {
     "player_id": "1642262",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642262.png",
     "season_fp": 460.0,
+    "games_played": 54,
     "avg_fp": 8.5
   },
   "Mason Jones": {
     "player_id": "1630222",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630222.png",
     "season_fp": 56.0,
+    "games_played": 34,
     "avg_fp": 1.6
   },
   "Isaiah Crawford": {
     "player_id": "1642384",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642384.png",
     "season_fp": 31.0,
+    "games_played": 22,
     "avg_fp": 1.4
   },
   "Kevin Durant": {
     "player_id": "201142",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201142.png",
     "season_fp": 2837.0,
+    "games_played": 62,
     "avg_fp": 45.8
   },
   "Jalen Johnson": {
     "player_id": "1630552",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630552.png",
     "season_fp": 1569.0,
+    "games_played": 50,
     "avg_fp": 31.4
   },
   "Jesse Edwards": {
     "player_id": "1642399",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642399.png",
     "season_fp": 2.0,
+    "games_played": 12,
     "avg_fp": 0.2
   },
   "Wendell Moore Jr.": {
     "player_id": "1631111",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631111.png",
     "season_fp": 320.0,
+    "games_played": 65,
     "avg_fp": 4.9
   },
   "Jordan Hawkins": {
     "player_id": "1641722",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641722.png",
     "season_fp": 940.0,
+    "games_played": 64,
     "avg_fp": 14.7
   },
   "Jeremy Sochan": {
     "player_id": "1631110",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631110.png",
     "season_fp": 1348.0,
+    "games_played": 53,
     "avg_fp": 25.4
   },
   "Amir Coffey": {
     "player_id": "1629599",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629599.png",
     "season_fp": 1153.0,
+    "games_played": 72,
     "avg_fp": 16.0
   },
   "Brandon Williams": {
     "player_id": "1585",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1585.png",
     "season_fp": 508.0,
+    "games_played": 50,
     "avg_fp": 10.2
   },
   "Miles Norris": {
     "player_id": "1641936",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641936.png",
     "season_fp": 2.0,
+    "games_played": 5,
     "avg_fp": 0.4
   },
   "Tyrese Maxey": {
     "player_id": "1630178",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630178.png",
     "season_fp": 2366.0,
+    "games_played": 67,
     "avg_fp": 35.3
   },
   "Cameron Johnson": {
     "player_id": "1629661",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629661.png",
     "season_fp": 1917.0,
+    "games_played": 65,
     "avg_fp": 29.5
   },
   "Elijah Harkless": {
     "player_id": "1641989",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641989.png",
     "season_fp": 98.0,
+    "games_played": 19,
     "avg_fp": 5.2
   },
   "CJ McCollum": {
     "player_id": "203468",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203468.png",
     "season_fp": 1927.0,
+    "games_played": 63,
     "avg_fp": 30.6
   },
   "Terry Taylor": {
     "player_id": "1630678",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630678.png",
     "season_fp": 4.0,
+    "games_played": 6,
     "avg_fp": 0.7
   },
   "Kevin Love": {
     "player_id": "201567",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201567.png",
     "season_fp": 292.0,
+    "games_played": 70,
     "avg_fp": 4.2
   },
   "Nikola Jovic": {
     "player_id": "1631107",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631107.png",
     "season_fp": 1050.0,
+    "games_played": 65,
     "avg_fp": 16.2
   },
   "Khris Middleton": {
     "player_id": "203114",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203114.png",
     "season_fp": 956.0,
+    "games_played": 38,
     "avg_fp": 25.2
   },
   "Jamal Murray": {
     "player_id": "1627750",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627750.png",
     "season_fp": 2744.0,
+    "games_played": 66,
     "avg_fp": 41.6
   },
   "Day'Ron Sharpe": {
     "player_id": "1630549",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630549.png",
     "season_fp": 1121.0,
+    "games_played": 52,
     "avg_fp": 21.6
   },
   "Cam Thomas": {
     "player_id": "1630560",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630560.png",
     "season_fp": 808.0,
+    "games_played": 42,
     "avg_fp": 19.2
   },
   "Cam Reddish": {
     "player_id": "1629629",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629629.png",
     "season_fp": 348.0,
+    "games_played": 61,
     "avg_fp": 5.7
   },
   "Jeff Dowtin Jr.": {
     "player_id": "1630288",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630288.png",
     "season_fp": 563.0,
+    "games_played": 48,
     "avg_fp": 11.7
   },
   "Robert Williams III": {
     "player_id": "1629057",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629057.png",
     "season_fp": 447.0,
+    "games_played": 55,
     "avg_fp": 8.1
   },
   "Bryce McGowens": {
     "player_id": "1631121",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631121.png",
     "season_fp": 9.0,
+    "games_played": 26,
     "avg_fp": 0.3
   },
   "Ousmane Dieng": {
     "player_id": "1631172",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631172.png",
     "season_fp": 346.0,
+    "games_played": 51,
     "avg_fp": 6.8
   },
   "Jake LaRavia": {
     "player_id": "1631222",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631222.png",
     "season_fp": 1207.0,
+    "games_played": 69,
     "avg_fp": 17.5
   },
   "Nikola Topic": {
     "player_id": "1642260",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642260.png",
     "season_fp": 0.0,
+    "games_played": 1,
     "avg_fp": 0.0
   },
   "Ajay Mitchell": {
     "player_id": "1642349",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642349.png",
     "season_fp": 477.0,
+    "games_played": 36,
     "avg_fp": 13.2
   },
   "Alex Ducas": {
     "player_id": "1642505",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642505.png",
     "season_fp": 70.0,
+    "games_played": 35,
     "avg_fp": 2.0
   },
   "Lauri Markkanen": {
     "player_id": "1628374",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628374.png",
     "season_fp": 1385.0,
+    "games_played": 50,
     "avg_fp": 27.7
   },
   "Brandon Clarke": {
     "player_id": "1629634",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629634.png",
     "season_fp": 1329.0,
+    "games_played": 67,
     "avg_fp": 19.8
   },
   "Taylor Hendricks": {
     "player_id": "1641707",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641707.png",
     "season_fp": 57.0,
+    "games_played": 6,
     "avg_fp": 9.5
   },
   "Zyon Pullin": {
     "player_id": "1642389",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642389.png",
     "season_fp": -1.0,
+    "games_played": 7,
     "avg_fp": -0.1
   },
   "Clint Capela": {
     "player_id": "203991",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203991.png",
     "season_fp": 1336.0,
+    "games_played": 56,
     "avg_fp": 23.9
   },
   "Larry Nance Jr.": {
     "player_id": "1626204",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626204.png",
     "season_fp": 498.0,
+    "games_played": 45,
     "avg_fp": 11.1
   },
   "Jack McVeigh": {
     "player_id": "1629098",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629098.png",
     "season_fp": 23.0,
+    "games_played": 21,
     "avg_fp": 1.1
   },
   "Jacob Toppin": {
     "player_id": "1631210",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631210.png",
     "season_fp": 25.0,
+    "games_played": 51,
     "avg_fp": 0.5
   },
   "David Roddy": {
     "player_id": "1631223",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631223.png",
     "season_fp": 337.0,
+    "games_played": 56,
     "avg_fp": 6.0
   },
   "Kobe Bufkin": {
     "player_id": "1641723",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641723.png",
     "season_fp": 100.0,
+    "games_played": 23,
     "avg_fp": 4.3
   },
   "N'Faly Dante": {
     "player_id": "1642368",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642368.png",
     "season_fp": 28.0,
+    "games_played": 10,
     "avg_fp": 2.8
   },
   "Dru Smith": {
     "player_id": "1630696",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630696.png",
     "season_fp": 258.0,
+    "games_played": 25,
     "avg_fp": 10.3
   },
   "Kyrie Irving": {
     "player_id": "202681",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202681.png",
     "season_fp": 2145.0,
+    "games_played": 52,
     "avg_fp": 41.2
   },
   "Dante Exum": {
     "player_id": "203957",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203957.png",
     "season_fp": 324.0,
+    "games_played": 21,
     "avg_fp": 15.4
   },
   "Kessler Edwards": {
     "player_id": "1630556",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630556.png",
     "season_fp": 511.0,
+    "games_played": 50,
     "avg_fp": 10.2
   },
   "Ariel Hukporti": {
     "player_id": "1630574",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630574.png",
     "season_fp": 147.0,
+    "games_played": 53,
     "avg_fp": 2.8
   },
   "Olivier-Maxence Prosper": {
     "player_id": "1641765",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641765.png",
     "season_fp": 458.0,
+    "games_played": 67,
     "avg_fp": 6.8
   },
   "Moritz Wagner": {
     "player_id": "43224",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/43224.png",
     "season_fp": 691.0,
+    "games_played": 32,
     "avg_fp": 21.6
   },
   "LaMelo Ball": {
     "player_id": "1630163",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630163.png",
     "season_fp": 1935.0,
+    "games_played": 45,
     "avg_fp": 43.0
   },
   "Tre Mann": {
     "player_id": "1630544",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630544.png",
     "season_fp": 294.0,
+    "games_played": 15,
     "avg_fp": 19.6
   },
   "Jalen Suggs": {
     "player_id": "1630591",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630591.png",
     "season_fp": 1074.0,
+    "games_played": 43,
     "avg_fp": 25.0
   },
   "Mac McClung": {
     "player_id": "1630644",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630644.png",
     "season_fp": 5.0,
+    "games_played": 12,
     "avg_fp": 0.4
   },
   "Ethan Thompson": {
     "player_id": "1630679",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630679.png",
     "season_fp": 0.0,
+    "games_played": 3,
     "avg_fp": 0.0
   },
   "Brandon Miller": {
     "player_id": "1641706",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641706.png",
     "season_fp": 937.0,
+    "games_played": 28,
     "avg_fp": 33.5
   },
   "De'Aaron Fox": {
     "player_id": "1628368",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628368.png",
     "season_fp": 2635.0,
+    "games_played": 63,
     "avg_fp": 41.8
   },
   "David Duke Jr.": {
     "player_id": "1630561",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630561.png",
     "season_fp": 8.0,
+    "games_played": 11,
     "avg_fp": 0.7
   },
   "Jaden Ivey": {
     "player_id": "1631093",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631093.png",
     "season_fp": 867.0,
+    "games_played": 34,
     "avg_fp": 25.5
   },
   "Harrison Ingram": {
     "player_id": "1631127",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631127.png",
     "season_fp": 12.0,
+    "games_played": 9,
     "avg_fp": 1.3
   },
   "Victor Wembanyama": {
     "player_id": "1641705",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641705.png",
     "season_fp": 2642.0,
+    "games_played": 47,
     "avg_fp": 56.2
   },
   "Riley Minix": {
     "player_id": "1642434",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642434.png",
     "season_fp": 1.0,
+    "games_played": 3,
     "avg_fp": 0.3
   },
   "Terrence Shannon Jr.": {
     "player_id": "1630545",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630545.png",
     "season_fp": 269.0,
+    "games_played": 60,
     "avg_fp": 4.5
   },
   "Oshae Brissett": {
     "player_id": "1629052",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629052.png",
     "season_fp": 93.0,
+    "games_played": 6,
     "avg_fp": 15.5
   },
   "Jericho Sims": {
     "player_id": "1630579",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630579.png",
     "season_fp": 425.0,
+    "games_played": 69,
     "avg_fp": 6.2
   },
   "Tre Jones": {
     "player_id": "1630200",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630200.png",
     "season_fp": 973.0,
+    "games_played": 46,
     "avg_fp": 21.2
   },
   "TyTy Washington Jr.": {
     "player_id": "1631102",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631102.png",
     "season_fp": 67.0,
+    "games_played": 26,
     "avg_fp": 2.6
   },
   "Mo Bamba": {
     "player_id": "1628964",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628964.png",
     "season_fp": 438.0,
+    "games_played": 38,
     "avg_fp": 11.5
   },
   "Zion Williamson": {
     "player_id": "1629627",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629627.png",
     "season_fp": 1335.0,
+    "games_played": 35,
     "avg_fp": 38.1
   },
   "Damian Lillard": {
     "player_id": "203081",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203081.png",
     "season_fp": 2632.0,
+    "games_played": 59,
     "avg_fp": 44.6
   },
   "Marcus Garrett": {
     "player_id": "1630585",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630585.png",
     "season_fp": 51.0,
+    "games_played": 3,
     "avg_fp": 17.0
   },
   "DaRon Holmes II": {
     "player_id": "1641747",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641747.png",
     "season_fp": 0.0,
+    "games_played": 1,
     "avg_fp": 0.0
   },
   "Brandon Ingram": {
     "player_id": "1627742",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627742.png",
     "season_fp": 668.0,
+    "games_played": 26,
     "avg_fp": 25.7
   },
   "Gradey Dick": {
     "player_id": "1641711",
-    "position": null,
+    "position": "G-F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641711.png",
     "season_fp": 1207.0,
+    "games_played": 56,
     "avg_fp": 21.6
   },
   "Jalen Bridges": {
     "player_id": "1641779",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641779.png",
     "season_fp": -3.0,
+    "games_played": 9,
     "avg_fp": -0.3
   },
   "Ulrich Chomche": {
     "player_id": "1642279",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642279.png",
     "season_fp": 15.0,
+    "games_played": 16,
     "avg_fp": 0.9
   },
   "Ayo Dosunmu": {
     "player_id": "1630245",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630245.png",
     "season_fp": 1287.0,
+    "games_played": 49,
     "avg_fp": 26.3
   },
   "Eric Gordon": {
     "player_id": "201569",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201569.png",
     "season_fp": 552.0,
+    "games_played": 50,
     "avg_fp": 11.0
   },
   "Paul George": {
     "player_id": "202331",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202331.png",
     "season_fp": 1406.0,
+    "games_played": 47,
     "avg_fp": 29.9
   },
   "Joel Embiid": {
     "player_id": "203954",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203954.png",
     "season_fp": 749.0,
+    "games_played": 26,
     "avg_fp": 28.8
   },
   "Jared McCain": {
     "player_id": "1642272",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642272.png",
     "season_fp": 536.0,
+    "games_played": 25,
     "avg_fp": 21.4
   },
   "Isaiah Jackson": {
     "player_id": "1630543",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630543.png",
     "season_fp": 105.0,
+    "games_played": 6,
     "avg_fp": 17.5
   },
   "Tristen Newton": {
     "player_id": "1641803",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641803.png",
     "season_fp": 5.0,
+    "games_played": 23,
     "avg_fp": 0.2
   },
   "Dejounte Murray": {
     "player_id": "1627749",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627749.png",
     "season_fp": 1210.0,
+    "games_played": 32,
     "avg_fp": 37.8
   },
   "Brandon Boston Jr.": {
     "player_id": "1630527",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630527.png",
     "season_fp": 892.0,
+    "games_played": 46,
     "avg_fp": 19.4
   },
   "Herbert Jones": {
     "player_id": "1630529",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630529.png",
     "season_fp": 520.0,
+    "games_played": 28,
     "avg_fp": 18.6
   },
   "Trey Murphy III": {
     "player_id": "1630530",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630530.png",
     "season_fp": 1997.0,
+    "games_played": 56,
     "avg_fp": 35.7
   },
   "Corey Kispert": {
     "player_id": "1630557",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630557.png",
     "season_fp": 1176.0,
+    "games_played": 64,
     "avg_fp": 18.4
   },
   "Skal Labissiere": {
     "player_id": "1627746",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1627746.png",
     "season_fp": 11.0,
+    "games_played": 5,
     "avg_fp": 2.2
   },
   "Malachi Flynn": {
     "player_id": "1630201",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630201.png",
     "season_fp": 38.0,
+    "games_played": 6,
     "avg_fp": 6.3
   },
   "Bilal Coulibaly": {
     "player_id": "1641731",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641731.png",
     "season_fp": 1563.0,
+    "games_played": 59,
     "avg_fp": 26.5
   },
   "Kevon Harris": {
     "player_id": "1630284",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630284.png",
     "season_fp": 0.0,
+    "games_played": 1,
     "avg_fp": 0.0
   },
   "Bobby Portis": {
     "player_id": "1626171",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626171.png",
     "season_fp": 1347.0,
+    "games_played": 53,
     "avg_fp": 25.4
   },
   "Moses Brown": {
     "player_id": "1629650",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629650.png",
     "season_fp": 158.0,
+    "games_played": 16,
     "avg_fp": 9.9
   },
   "Killian Hayes": {
     "player_id": "1630165",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630165.png",
     "season_fp": 147.0,
+    "games_played": 6,
     "avg_fp": 24.5
   },
   "Jalen McDaniels": {
     "player_id": "1629667",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629667.png",
     "season_fp": 6.0,
+    "games_played": 4,
     "avg_fp": 1.5
   },
   "Matt Ryan": {
     "player_id": "1630346",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630346.png",
     "season_fp": 39.0,
+    "games_played": 52,
     "avg_fp": 0.8
   },
   "Yuri Collins": {
     "player_id": "1641879",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641879.png",
     "season_fp": 20.0,
+    "games_played": 2,
     "avg_fp": 10.0
   },
   "Liam Robbins": {
     "player_id": "1641857",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641857.png",
     "season_fp": 20.0,
+    "games_played": 27,
     "avg_fp": 0.7
   },
   "Johnny Davis": {
     "player_id": "76526",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/76526.png",
     "season_fp": 197.0,
+    "games_played": 49,
     "avg_fp": 4.0
   },
   "Erik Stevenson": {
@@ -3854,132 +4404,151 @@
     "position": null,
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641907.png",
     "season_fp": 0.0,
+    "games_played": 1,
     "avg_fp": 0.0
   },
   "Jahlil Okafor": {
     "player_id": "1626143",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626143.png",
     "season_fp": 3.0,
+    "games_played": 3,
     "avg_fp": 1.0
   },
   "Daishen Nix": {
     "player_id": "1630227",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630227.png",
     "season_fp": 1.0,
+    "games_played": 16,
     "avg_fp": 0.1
   },
   "Isaiah Wong": {
     "player_id": "1631209",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631209.png",
     "season_fp": 197.0,
+    "games_played": 25,
     "avg_fp": 7.9
   },
   "Jaylen Nowell": {
     "player_id": "1629669",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629669.png",
     "season_fp": 110.0,
+    "games_played": 11,
     "avg_fp": 10.0
   },
   "Christian Wood": {
     "player_id": "1626174",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626174.png",
     "season_fp": 0.0,
+    "games_played": 3,
     "avg_fp": 0.0
   },
   "Armel Traore": {
     "player_id": "1642422",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642422.png",
     "season_fp": 37.0,
+    "games_played": 24,
     "avg_fp": 1.5
   },
   "Reggie Jackson": {
     "player_id": "202704",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202704.png",
     "season_fp": 304.0,
+    "games_played": 49,
     "avg_fp": 6.2
   },
   "Josh Richardson": {
     "player_id": "1626196",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626196.png",
     "season_fp": 78.0,
+    "games_played": 38,
     "avg_fp": 2.1
   },
   "Daniel Theis": {
     "player_id": "1628464",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628464.png",
     "season_fp": 544.0,
+    "games_played": 48,
     "avg_fp": 11.3
   },
   "Chris Duarte": {
     "player_id": "1630537",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630537.png",
     "season_fp": 74.0,
+    "games_played": 43,
     "avg_fp": 1.7
   },
   "Taze Moore": {
     "player_id": "1631386",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631386.png",
     "season_fp": 14.0,
+    "games_played": 9,
     "avg_fp": 1.6
   },
   "Maxi Kleber": {
     "player_id": "1628467",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628467.png",
     "season_fp": 328.0,
+    "games_played": 36,
     "avg_fp": 9.1
   },
   "Jazian Gortman": {
     "player_id": "1641789",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641789.png",
     "season_fp": 40.0,
+    "games_played": 27,
     "avg_fp": 1.5
   },
   "Quincy Olivari": {
     "player_id": "1642439",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642439.png",
     "season_fp": 1.0,
+    "games_played": 9,
     "avg_fp": 0.1
   },
   "Eugene Omoruyi": {
     "player_id": "1630647",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630647.png",
     "season_fp": 0.0,
+    "games_played": 1,
     "avg_fp": 0.0
   },
   "Bruno Fernando": {
     "player_id": "1628981",
-    "position": null,
+    "position": "F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628981.png",
     "season_fp": 170.0,
+    "games_played": 34,
     "avg_fp": 5.0
   },
   "Adama Sanogo": {
     "player_id": "1641766",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1641766.png",
     "season_fp": 15.0,
+    "games_played": 8,
     "avg_fp": 1.9
   },
   "PJ Dozier": {
     "player_id": "1628408",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1628408.png",
     "season_fp": 22.0,
+    "games_played": 30,
     "avg_fp": 0.7
   },
   "Boo Buie III": {
@@ -3987,55 +4556,63 @@
     "position": null,
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642486.png",
     "season_fp": 0.0,
+    "games_played": 1,
     "avg_fp": 0.0
   },
   "Alondes Williams": {
     "player_id": "1631214",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1631214.png",
     "season_fp": 10.0,
+    "games_played": 9,
     "avg_fp": 1.1
   },
   "Cui Yongxi": {
     "player_id": "1642385",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642385.png",
     "season_fp": -1.0,
+    "games_played": 18,
     "avg_fp": -0.1
   },
   "D.J. Carton": {
     "player_id": "1630618",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630618.png",
     "season_fp": 8.0,
+    "games_played": 7,
     "avg_fp": 1.1
   },
   "Malevy Leons": {
     "player_id": "1642502",
-    "position": null,
+    "position": "F",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1642502.png",
     "season_fp": 1.0,
+    "games_played": 9,
     "avg_fp": 0.1
   },
   "De'Anthony Melton": {
     "player_id": "1629001",
-    "position": null,
+    "position": "G",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1629001.png",
     "season_fp": 132.0,
+    "games_played": 6,
     "avg_fp": 22.0
   },
   "Jason Preston": {
     "player_id": "1630554",
-    "position": null,
+    "position": "G-F-C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630554.png",
     "season_fp": 0.0,
+    "games_played": 1,
     "avg_fp": 0.0
   },
   "James Wiseman": {
     "player_id": "1630164",
-    "position": null,
+    "position": "C",
     "image_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1630164.png",
     "season_fp": 7.0,
+    "games_played": 1,
     "avg_fp": 7.0
   }
 }
