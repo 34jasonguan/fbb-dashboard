@@ -8,9 +8,17 @@ import plotly.express as px
 from dash.dependencies import Input, Output
 from nba_api.stats.static import players
 
+# ---------------
+# DATA PROCESSING
+# ---------------
+
 # Download latest version of the NBA dataset, read data
 path = kagglehub.dataset_download("eoinamoore/historical-nba-data-and-player-box-scores")
-nba = pd.read_csv(os.path.join(path, "PlayerStatistics.csv"), low_memory=False)
+nba = pd.read_csv(
+    os.path.join(path, "PlayerStatistics.csv"), 
+    nrows=10000,
+    low_memory=False
+    )
 
 # Convert date
 nba['gameDate'] = pd.to_datetime(nba['gameDate'])
@@ -65,6 +73,87 @@ top_fantasy_players["image_url"] = top_fantasy_players["player_id"].apply(
     lambda pid: build_player_image_url(pid) if pid else None
 )
 
+# OPTIMIZED ID + IMAGE MAP
+unique_players = fantasy_stats[['firstName', 'lastName']].drop_duplicates()
+player_lookup = {}
+
+for _, row in unique_players.iterrows():
+    full_name = (row['firstName'], row['lastName'])
+    pid = get_player_id(*full_name)
+    img_url = build_player_image_url(pid) if pid else None
+    player_lookup[full_name] = {'player_id': pid, 'image_url': img_url}
+
+fantasy_stats["player_id"] = fantasy_stats.apply(
+    lambda row: player_lookup.get((row["firstName"], row["lastName"]), {}).get('player_id'), axis=1
+)
+
+fantasy_stats["image_url"] = fantasy_stats.apply(
+    lambda row: player_lookup.get((row["firstName"], row["lastName"]), {}).get('image_url'), axis=1
+)
+
+# find the top performers over the past 5 games
+sorted_stats = fantasy_stats.sort_values(by=['firstName', 'lastName', 'gameDate'])
+last_5_games = sorted_stats.groupby(['firstName', 'lastName']).tail(5)
+
+player_totals = last_5_games.groupby(['firstName', 'lastName']).agg({
+    'fp': 'sum',
+    'playerteamName': 'last',  # Just to keep context
+    'player_id': 'last',
+    'image_url': 'last'
+}).reset_index()
+
+top_3 = player_totals.sort_values(by='fp', ascending=False).head(3)
+top_3_names = top_3[['firstName', 'lastName']]
+merged = pd.merge(last_5_games, top_3_names, on=['firstName', 'lastName'], how='inner')
+
+
+# function for displaying top players over the past 5 games
+def create_player_row(player_df):
+    player = player_df.iloc[0]
+    card = html.Div([
+        html.Img(src=player["image_url"], style={"width": "80px", "border-radius": "8px"}),
+        html.H4(f"{player['firstName']} {player['lastName']}"),
+        html.P(f"Team: {player['playerteamName']}")
+    ], style={
+        "width": "150px",
+        "padding": "10px",
+        "textAlign": "center"
+    })
+
+    fig = px.line(
+        player_df.sort_values(by='gameDate'),
+        x='gameDate',
+        y='fp',
+        markers=True,
+        title=f"{player['firstName']} {player['lastName']} - Last 5 Games",
+    )
+
+    chart = dcc.Graph(figure=fig, style={"flex": "1"})
+
+    return html.Div([
+        card,
+        chart
+    ], style={
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": "20px",
+        "borderBottom": "1px solid #ddd"
+    })
+
+player_rows = []
+
+for _, player in top_3.iterrows():
+    player_history = merged[
+        (merged['firstName'] == player['firstName']) &
+        (merged['lastName'] == player['lastName'])
+    ]
+    player_rows.append(create_player_row(player_history))
+
+# ---------
+# FRONT END
+# ---------
+
 # display players
 def create_player_card(player):
     return html.Div([
@@ -91,7 +180,23 @@ app = dash.Dash(__name__)
 app.title = "Fantasy Basketball Dashboard"
 
 app.layout = html.Div([
-    html.H1("Top Fantasy Performers - Yesterday"),
+    # header
+    html.Div([
+        html.H1("BoxOut", style={
+            "color": "#000000",
+            "margin": "0",
+            "fontSize": "3rem"
+        })
+    ], style={
+        "backgroundColor": "#FFA500",
+        "padding": "20px 0",
+        "textAlign": "center",
+        "boxShadow": "0px 2px 4px rgba(0,0,0,0.1)",
+        "marginBottom": "20px"
+    }),
+
+    # top performers
+    html.H1("Yesterday's Top Performers"),
     
     html.Div(player_cards, style={
         "display": "flex",
@@ -99,7 +204,11 @@ app.layout = html.Div([
         "justifyContent": "center",
         "flexWrap": "wrap",
         "gap": "10px"
-    })
+    }), 
+
+    # top performers over the past 5 games
+    html.H2("These Players are on Fire!", style={"textAlign": "center", "marginTop": "40px"}),
+    html.Div(player_rows)
 ])
 
 if __name__ == "__main__":
