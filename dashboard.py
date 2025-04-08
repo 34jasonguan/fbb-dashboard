@@ -8,6 +8,7 @@ from dash import html, dcc
 import plotly.express as px
 from dash.dependencies import Input, Output
 from nba_api.stats.static import players
+from nba_api.stats.endpoints import commonplayerinfo
 
 # ---------------
 # DATA PROCESSING
@@ -57,12 +58,72 @@ def get_player_id(first_name, last_name):
 def build_player_image_url(player_id):
     return f"https://cdn.nba.com/headshots/nba/latest/260x190/{player_id}.png"
 
-# Find yesterday's top performers
-yesterday = datetime.today().date() - timedelta(days=1)
-games_yesterday = fantasy_stats[fantasy_stats['gameDate'].dt.date == yesterday]
-top_fantasy_players = games_yesterday.sort_values(by='fp', ascending=False).head(5)
+def get_player_position(player_id):
+    try:
+        info = commonplayerinfo.CommonPlayerInfo(player_id=player_id)
+        df = info.get_data_frames()[0]
+        return df.loc[0, 'POSITION']
+    except:
+        return None
 
-# Find top 3 performers in the last 5 games
+# get data from cache
+with open("player_lookup_cache.json", "r") as f:
+    player_lookup = json.load(f)
+
+# Gather all unique players from fantasy_stats
+all_names = fantasy_stats[['firstName', 'lastName']].drop_duplicates()
+updated = False
+
+for _, row in all_names.iterrows():
+    full_name = f"{row['firstName']} {row['lastName']}"
+    if full_name not in player_lookup:
+        pid = get_player_id(row['firstName'], row['lastName'])
+        img_url = build_player_image_url(pid) if pid else None
+        position = get_player_position(pid) if pid else None
+        player_lookup[full_name] = {'player_id': pid, 'image_url': img_url, 'position': position}
+        updated = True
+
+if updated:
+    with open(CACHE_FILE, "w") as f:
+        json.dump(player_lookup, f)
+
+def get_cached(field, row):
+    key = f"{row['firstName']} {row['lastName']}"
+    return player_lookup.get(key, {}).get(field)
+
+# -------- Top Performers --------
+
+yesterday = datetime.today().date() - timedelta(days=1)
+games_yesterday = fantasy_stats[fantasy_stats['gameDate'].dt.date == yesterday].copy()
+games_yesterday["player_id"] = games_yesterday.apply(lambda row: get_cached("player_id", row), axis=1)
+games_yesterday["image_url"] = games_yesterday.apply(lambda row: get_cached("image_url", row), axis=1)
+games_yesterday["position"] = games_yesterday.apply(lambda row: get_cached("position", row), axis=1)
+games_yesterday = games_yesterday[games_yesterday["position"].notna()]
+
+# Build position-specific top 5s
+top_5 = games_yesterday.sort_values(by='fp', ascending=False).head(5).copy()
+top_5["category"] = "All"
+
+top_guards = games_yesterday[games_yesterday["position"].str.startswith("G")] \
+    .sort_values(by="fp", ascending=False).head(5).copy()
+top_guards["category"] = "Guards"
+
+top_forwards = games_yesterday[games_yesterday["position"].str.startswith("F")] \
+    .sort_values(by="fp", ascending=False).head(5).copy()
+top_forwards["category"] = "Forwards"
+
+top_centers = games_yesterday[games_yesterday["position"].str.startswith("C")] \
+    .sort_values(by="fp", ascending=False).head(5).copy()
+top_centers["category"] = "Centers"
+
+top_fantasy_players = pd.concat([top_5, top_guards, top_forwards, top_centers], ignore_index=True)
+
+# Reapply lookup to top performers
+top_fantasy_players["player_id"] = top_fantasy_players.apply(lambda row: get_cached("player_id", row), axis=1)
+top_fantasy_players["image_url"] = top_fantasy_players.apply(lambda row: get_cached("image_url", row), axis=1)
+top_fantasy_players["position"] = top_fantasy_players.apply(lambda row: get_cached("position", row), axis=1)
+
+# --- Top 3 from last 5 games ---
 sorted_stats = fantasy_stats.sort_values(by=['firstName', 'lastName', 'gameDate'])
 last_5_games = sorted_stats.groupby(['firstName', 'lastName']).tail(5)
 
@@ -75,46 +136,9 @@ top_3 = player_totals.sort_values(by='fp', ascending=False).head(3)
 top_3_names = top_3[['firstName', 'lastName']]
 merged = pd.merge(last_5_games, top_3_names, on=['firstName', 'lastName'], how='inner')
 
-# -------------
-# CACHED LOOKUP
-# -------------
-
-if os.path.exists(CACHE_FILE):
-    with open(CACHE_FILE, "r") as f:
-        player_lookup = json.load(f)
-else:
-    player_lookup = {}
-
-display_names = pd.concat([
-    top_fantasy_players[['firstName', 'lastName']],
-    top_3[['firstName', 'lastName']]
-]).drop_duplicates()
-
-# lookup missing players if necessary
-updated = False
-for _, row in display_names.iterrows():
-    full_name = (row['firstName'], row['lastName'])
-    key = f"{full_name[0]} {full_name[1]}"
-    if key not in player_lookup:
-        pid = get_player_id(*full_name)
-        img_url = build_player_image_url(pid) if pid else None
-        player_lookup[key] = {'player_id': pid, 'image_url': img_url}
-        updated = True
-
-if updated:
-    with open(CACHE_FILE, "w") as f:
-        json.dump(player_lookup, f)
-
-def get_cached(field, row):
-    key = f"{row['firstName']} {row['lastName']}"
-    return player_lookup.get(key, {}).get(field)
-
-# Apply to both sets
-top_fantasy_players['player_id'] = top_fantasy_players.apply(lambda row: get_cached('player_id', row), axis=1)
-top_fantasy_players['image_url'] = top_fantasy_players.apply(lambda row: get_cached('image_url', row), axis=1)
-
 merged['player_id'] = merged.apply(lambda row: get_cached('player_id', row), axis=1)
 merged['image_url'] = merged.apply(lambda row: get_cached('image_url', row), axis=1)
+merged['position'] = merged.apply(lambda row: get_cached('position', row), axis=1)
 
 # ---------------
 # DASH COMPONENTS
@@ -138,10 +162,11 @@ def create_player_card(player):
 def create_player_row(player_df):
     player = player_df.iloc[0]
     total_fp = player_df['fp'].sum()
+    position = get_cached("position", player)
     card = html.Div([
         html.Img(src=player["image_url"], style={"width": "80px", "border-radius": "8px"}),
         html.H4(f"{player['firstName']} {player['lastName']}"),
-        html.P(f"Team: {player['playerteamName']}"),
+        html.P(f"{position}, {player['playerteamName']}"),
         html.P(f"{total_fp} fantasy points over the past 5 games")
     ], style={
         "width": "150px",
@@ -200,17 +225,66 @@ app.layout = html.Div([
 
     html.H1("Yesterday's Top Performers"),
 
-    html.Div(player_cards, style={
+    html.Div([
+        html.Button("All", id="btn-all", n_clicks=0),
+        html.Button("Guard", id="btn-guard", n_clicks=0),
+        html.Button("Forward", id="btn-forward", n_clicks=0),
+        html.Button("Center", id="btn-center", n_clicks=0)
+    ], style={
+        "textAlign": "center",
+        "marginBottom": "20px",
+        "gap": "10px",
+        "display": "flex",
+        "justifyContent": "center"
+    }),
+
+    html.Div(id="top-player-cards", style={
         "display": "flex",
         "flexDirection": "row",
         "justifyContent": "center",
         "flexWrap": "wrap",
         "gap": "10px"
-    }), 
+    }),
 
     html.H1("Top Players Over The Last 5 Games"),
     html.Div(player_rows)
 ])
+
+@app.callback(
+    Output("top-player-cards", "children"),
+    [Input("btn-all", "n_clicks"),
+     Input("btn-guard", "n_clicks"),
+     Input("btn-forward", "n_clicks"),
+     Input("btn-center", "n_clicks")]
+)
+def update_top_performers(all_clicks, guard_clicks, forward_clicks, center_clicks):
+    ctx = dash.callback_context
+
+    if not ctx.triggered:
+        category = "All"
+    else:
+        button_id = ctx.triggered[0]['prop_id'].split('.')[0]
+        category = {
+            "btn-all": "All",
+            "btn-guard": "G",
+            "btn-forward": "F",
+            "btn-center": "C"
+        }.get(button_id, "All")
+
+    # Build full data from games_yesterday
+    df = games_yesterday.copy()
+    df["player_id"] = df.apply(lambda row: get_cached("player_id", row), axis=1)
+    df["image_url"] = df.apply(lambda row: get_cached("image_url", row), axis=1)
+    df["position"] = df.apply(lambda row: get_cached("position", row), axis=1)
+
+    # Filter by position
+    if category != "All":
+        df = df[df["position"].str.startswith(category)]
+
+    # Get top 5 by fp
+    df = df.sort_values(by="fp", ascending=False).head(5)
+
+    return [create_player_card(row) for _, row in df.iterrows()]
 
 if __name__ == "__main__":
     app.run(debug=True)
