@@ -1,6 +1,7 @@
 import kagglehub
 import os
 import pandas as pd
+import json
 from datetime import datetime, timedelta
 import dash
 from dash import html, dcc
@@ -18,18 +19,17 @@ nba = pd.read_csv(
     os.path.join(path, "PlayerStatistics.csv"), 
     nrows=10000,
     low_memory=False
-    )
+)
 
 # Convert date
 nba['gameDate'] = pd.to_datetime(nba['gameDate'])
 
-# Create with relevant data for fantasy
+# Create new df with relevant data for fantasy
 fantasy_stats = nba[nba['gameDate'] >= pd.Timestamp("2024-10-22")][
     ['firstName', 'lastName', 'gameDate', 'playerteamName', 'opponentteamName', 'win',
-    'numMinutes', 'points', 'assists', 'blocks', 'steals',
-    'fieldGoalsAttempted', 'fieldGoalsMade',
-    'reboundsTotal', 'turnovers', 'threePointersMade',
-    'freeThrowsAttempted', 'freeThrowsMade']
+     'numMinutes', 'points', 'assists', 'blocks', 'steals',
+     'fieldGoalsAttempted', 'fieldGoalsMade', 'reboundsTotal', 'turnovers',
+     'threePointersMade', 'freeThrowsAttempted', 'freeThrowsMade']
 ]
 
 fantasy_stats['fp'] = (
@@ -45,7 +45,8 @@ fantasy_stats['fp'] = (
     fantasy_stats['threePointersMade']
 )
 
-# player ID function
+# cache money
+CACHE_FILE = "player_lookup_cache.json"
 def get_player_id(first_name, last_name):
     full_name = f"{first_name} {last_name}"
     result = players.find_players_by_full_name(full_name)
@@ -53,7 +54,6 @@ def get_player_id(first_name, last_name):
         return result[0]['id']
     return None
 
-# find player image
 def build_player_image_url(player_id):
     return f"https://cdn.nba.com/headshots/nba/latest/260x190/{player_id}.png"
 
@@ -61,100 +61,65 @@ def build_player_image_url(player_id):
 yesterday = datetime.today().date() - timedelta(days=1)
 games_yesterday = fantasy_stats[fantasy_stats['gameDate'].dt.date == yesterday]
 top_fantasy_players = games_yesterday.sort_values(by='fp', ascending=False).head(5)
-# print(top_fantasy_players[['firstName', 'lastName', 'playerteamName', 'fp']])
 
-# Add player_id and image_url columns
-top_fantasy_players = top_fantasy_players.copy()
-top_fantasy_players["player_id"] = top_fantasy_players.apply(
-    lambda row: get_player_id(row["firstName"], row["lastName"]), axis=1
-)
-
-top_fantasy_players["image_url"] = top_fantasy_players["player_id"].apply(
-    lambda pid: build_player_image_url(pid) if pid else None
-)
-
-# OPTIMIZED ID + IMAGE MAP
-unique_players = fantasy_stats[['firstName', 'lastName']].drop_duplicates()
-player_lookup = {}
-
-for _, row in unique_players.iterrows():
-    full_name = (row['firstName'], row['lastName'])
-    pid = get_player_id(*full_name)
-    img_url = build_player_image_url(pid) if pid else None
-    player_lookup[full_name] = {'player_id': pid, 'image_url': img_url}
-
-fantasy_stats["player_id"] = fantasy_stats.apply(
-    lambda row: player_lookup.get((row["firstName"], row["lastName"]), {}).get('player_id'), axis=1
-)
-
-fantasy_stats["image_url"] = fantasy_stats.apply(
-    lambda row: player_lookup.get((row["firstName"], row["lastName"]), {}).get('image_url'), axis=1
-)
-
-# find the top performers over the past 5 games
+# Find top 3 performers in the last 5 games
 sorted_stats = fantasy_stats.sort_values(by=['firstName', 'lastName', 'gameDate'])
 last_5_games = sorted_stats.groupby(['firstName', 'lastName']).tail(5)
 
 player_totals = last_5_games.groupby(['firstName', 'lastName']).agg({
     'fp': 'sum',
-    'playerteamName': 'last',  # Just to keep context
-    'player_id': 'last',
-    'image_url': 'last'
+    'playerteamName': 'last'
 }).reset_index()
 
 top_3 = player_totals.sort_values(by='fp', ascending=False).head(3)
 top_3_names = top_3[['firstName', 'lastName']]
 merged = pd.merge(last_5_games, top_3_names, on=['firstName', 'lastName'], how='inner')
 
+# -------------
+# CACHED LOOKUP
+# -------------
 
-# function for displaying top players over the past 5 games
-def create_player_row(player_df):
-    player = player_df.iloc[0]
-    card = html.Div([
-        html.Img(src=player["image_url"], style={"width": "80px", "border-radius": "8px"}),
-        html.H4(f"{player['firstName']} {player['lastName']}"),
-        html.P(f"Team: {player['playerteamName']}")
-    ], style={
-        "width": "150px",
-        "padding": "10px",
-        "textAlign": "center"
-    })
+if os.path.exists(CACHE_FILE):
+    with open(CACHE_FILE, "r") as f:
+        player_lookup = json.load(f)
+else:
+    player_lookup = {}
 
-    fig = px.line(
-        player_df.sort_values(by='gameDate'),
-        x='gameDate',
-        y='fp',
-        markers=True,
-        title=f"{player['firstName']} {player['lastName']} - Last 5 Games",
-    )
+display_names = pd.concat([
+    top_fantasy_players[['firstName', 'lastName']],
+    top_3[['firstName', 'lastName']]
+]).drop_duplicates()
 
-    chart = dcc.Graph(figure=fig, style={"flex": "1"})
+# lookup missing players if necessary
+updated = False
+for _, row in display_names.iterrows():
+    full_name = (row['firstName'], row['lastName'])
+    key = f"{full_name[0]} {full_name[1]}"
+    if key not in player_lookup:
+        pid = get_player_id(*full_name)
+        img_url = build_player_image_url(pid) if pid else None
+        player_lookup[key] = {'player_id': pid, 'image_url': img_url}
+        updated = True
 
-    return html.Div([
-        card,
-        chart
-    ], style={
-        "display": "flex",
-        "flexDirection": "row",
-        "alignItems": "center",
-        "padding": "20px",
-        "borderBottom": "1px solid #ddd"
-    })
+if updated:
+    with open(CACHE_FILE, "w") as f:
+        json.dump(player_lookup, f)
 
-player_rows = []
+def get_cached(field, row):
+    key = f"{row['firstName']} {row['lastName']}"
+    return player_lookup.get(key, {}).get(field)
 
-for _, player in top_3.iterrows():
-    player_history = merged[
-        (merged['firstName'] == player['firstName']) &
-        (merged['lastName'] == player['lastName'])
-    ]
-    player_rows.append(create_player_row(player_history))
+# Apply to both sets
+top_fantasy_players['player_id'] = top_fantasy_players.apply(lambda row: get_cached('player_id', row), axis=1)
+top_fantasy_players['image_url'] = top_fantasy_players.apply(lambda row: get_cached('image_url', row), axis=1)
 
-# ---------
-# FRONT END
-# ---------
+merged['player_id'] = merged.apply(lambda row: get_cached('player_id', row), axis=1)
+merged['image_url'] = merged.apply(lambda row: get_cached('image_url', row), axis=1)
 
-# display players
+# ---------------
+# DASH COMPONENTS
+# ---------------
+
 def create_player_card(player):
     return html.Div([
         html.Img(src=player["image_url"], style={"width": "100px", "border-radius": "10px"}),
@@ -170,17 +135,55 @@ def create_player_card(player):
         "width": "150px"
     })
 
-player_cards = [
-    create_player_card(row)
-    for _, row in top_fantasy_players.iterrows()
-]
+def create_player_row(player_df):
+    player = player_df.iloc[0]
+    total_fp = player_df['fp'].sum()
+    card = html.Div([
+        html.Img(src=player["image_url"], style={"width": "80px", "border-radius": "8px"}),
+        html.H4(f"{player['firstName']} {player['lastName']}"),
+        html.P(f"Team: {player['playerteamName']}"),
+        html.P(f"{total_fp} fantasy points over the past 5 games")
+    ], style={
+        "width": "150px",
+        "padding": "10px",
+        "textAlign": "center"
+    })
 
-# Creating the actual dashboard using Dash
+    fig = px.line(
+        player_df.sort_values(by='gameDate'),
+        x='gameDate',
+        y='fp',
+        markers=True,
+        title=f"{player['firstName']} {player['lastName']} - Last 5 Games",
+    )
+    chart = dcc.Graph(figure=fig, style={"flex": "1"})
+
+    return html.Div([
+        card,
+        chart
+    ], style={
+        "display": "flex",
+        "flexDirection": "row",
+        "alignItems": "center",
+        "padding": "20px",
+        "borderBottom": "1px solid #ddd"
+    })
+
+player_cards = [create_player_card(row) for _, row in top_fantasy_players.iterrows()]
+
+player_rows = []
+for _, player in top_3.iterrows():
+    player_history = merged[(merged['firstName'] == player['firstName']) & (merged['lastName'] == player['lastName'])]
+    player_rows.append(create_player_row(player_history))
+
+# ---------
+# FRONT END
+# ---------
+
 app = dash.Dash(__name__)
 app.title = "Fantasy Basketball Dashboard"
 
 app.layout = html.Div([
-    # header
     html.Div([
         html.H1("BoxOut", style={
             "color": "#000000",
@@ -195,9 +198,8 @@ app.layout = html.Div([
         "marginBottom": "20px"
     }),
 
-    # top performers
     html.H1("Yesterday's Top Performers"),
-    
+
     html.Div(player_cards, style={
         "display": "flex",
         "flexDirection": "row",
@@ -206,8 +208,7 @@ app.layout = html.Div([
         "gap": "10px"
     }), 
 
-    # top performers over the past 5 games
-    html.H2("These Players are on Fire!", style={"textAlign": "center", "marginTop": "40px"}),
+    html.H1("Top Players Over The Last 5 Games"),
     html.Div(player_rows)
 ])
 
