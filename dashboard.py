@@ -7,6 +7,7 @@ import dash
 from dash import html, dcc
 import plotly.express as px
 from dash.dependencies import Input, Output
+from predictor import get_tomorrows_predictions
 
 # ---------------
 # DATA PROCESSING
@@ -268,6 +269,35 @@ sell_high_section = html.Div([
     })
 ])
 
+top_preds, top_booms = get_tomorrows_predictions()
+
+def create_prediction_card(row):
+    return html.Div([
+        html.Img(src=row["image_url"], style={"width": "80px", "border-radius": "8px"}),
+        html.H4(f"{row['firstName']} {row['lastName']}"),
+        html.P(f"Predicted FP: {round(row['predicted_fp'], 1)}"),
+        html.P(f"Recent Average: {round(row['season_avg_fp'], 1)}"), 
+        html.P(row["oss_message"], style={"margin": "0", "fontStyle": "italic"})
+    ], style={
+        "border": "1px solid #ccc",
+        "padding": "10px",
+        "margin": "5px",
+        "textAlign": "center",
+        "borderRadius": "10px",
+        "width": "150px"
+    })
+
+prediction_section = html.Div([
+    html.H2("Tomorrow's Top Predictions", style={"textAlign": "center"}),
+    html.H4("Top 3 Predicted Performers", style={"textAlign": "center"}),
+    html.Div([create_prediction_card(row) for _, row in top_preds.iterrows()],
+             style={"display": "flex", "justifyContent": "center", "gap": "10px"}),
+
+    html.H4("Top 3 Boom Candidates", style={"textAlign": "center", "marginTop": "30px"}),
+    html.Div([create_prediction_card(row) for _, row in top_booms.iterrows()],
+             style={"display": "flex", "justifyContent": "center", "gap": "10px"})
+])
+
 # ---------
 # FRONT END
 # ---------
@@ -312,6 +342,8 @@ app.layout = html.Div([
         "flexWrap": "wrap",
         "gap": "10px"
     }),
+
+    html.Div(prediction_section),
 
     html.H1("Top Players Over The Last 5 Games"),
     html.Div(player_rows), 

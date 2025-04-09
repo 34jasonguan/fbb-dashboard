@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jasonguan/Desktop/CS%20Projects/fbb-dashboard/mlruns/0/af2b1d37cbd44718ab497471c47deef9/artifacts
+end_time: 1744164052542
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af2b1d37cbd44718ab497471c47deef9
+run_name: unequaled-deer-174
+run_uuid: af2b1d37cbd44718ab497471c47deef9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744164048951
+status: 3
+tags: []
+user_id: jasonguan
