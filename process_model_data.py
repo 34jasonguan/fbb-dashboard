@@ -49,51 +49,60 @@ nba_recent = nba_recent[nba_recent['opponent_oss'].notna()]
 
 nba_recent = nba_recent.sort_values(by=['firstName', 'lastName', 'gameDate'])
 nba_recent['recent_avg_fp'] = (
-    nba_recent.groupby(['firstName', 'lastName'])['fp']
-    .transform(lambda x: x.rolling(window=5, min_periods=1).mean())
+    nba_recent
+    .groupby(['firstName', 'lastName'])['fp']
+    .transform(lambda x: x.shift(1).rolling(window=5, min_periods=1).mean())
 )
 
-season_avg_fp = (
-    nba_recent.groupby(['firstName', 'lastName'])['fp']
-    .transform('mean')
+nba_recent['season_avg_fp'] = (
+    nba_recent
+    .groupby(['firstName', 'lastName'])['fp']
+    .transform(lambda x: x.shift(1).expanding().mean())
 )
-nba_recent['season_avg_fp'] = season_avg_fp
 
-avg_minutes = nba_recent[nba_recent['numMinutes'] > 0].groupby(['firstName', 'lastName'])['numMinutes'].mean().reset_index()
-avg_minutes = avg_minutes.rename(columns={'numMinutes': 'avg_minutes'})
-nba_recent = nba_recent.merge(avg_minutes, on=['firstName', 'lastName'], how='left')
+nba_recent['avg_minutes'] = (
+    nba_recent
+    .groupby(['firstName', 'lastName'])['numMinutes']
+    .transform(lambda x: x.shift(1).expanding().mean())
+)
 
 injuries = pd.read_csv("injury_data.csv")
 injuries['DATE'] = pd.to_datetime(injuries['DATE'])
 injuries['player_name'] = injuries['PLAYER'].apply(lambda x: f"{x.split(', ')[1]} {x.split(', ')[0]}")
-avg_min_lookup = avg_minutes.set_index(['firstName', 'lastName'])['avg_minutes'].to_dict()
+avg_min_lookup = nba_recent[['firstName', 'lastName', 'gameDate', 'avg_minutes']]
 
 bfi_scores = []
-for _, row in nba_recent.iterrows():
-    # if row['avg_minutes'] >= 26:
-    #     bfi_scores.append(0.0)
-    #     continue
+lookup_dict = nba_recent.set_index(['firstName', 'lastName', 'gameDate'])['avg_minutes'].to_dict()
 
+for _, row in nba_recent.iterrows():
     game_date = row['gameDate'].date()
     team = row['playerteamName']
     position = row['position'][0]
-    teammates = nba_recent[(nba_recent['playerteamName'] == team) & (nba_recent['position'].str.startswith(position))]
+
+    teammates = nba_recent[
+        (nba_recent['playerteamName'] == team) &
+        (nba_recent['position'].str.startswith(position))
+    ]
     teammate_names = set(teammates.apply(lambda r: f"{r['firstName']} {r['lastName']}", axis=1))
 
-    injured = injuries[(injuries['TEAM'] == team) &
-                       (injuries['STATUS'] == 'Out') &
-                       (injuries['DATE'] == game_date)]
+    injured = injuries[
+        (injuries['TEAM'] == team) &
+        (injuries['STATUS'] == 'Out') &
+        (injuries['DATE'] == game_date)
+    ]
 
     injured_names = set(injured['player_name'])
+
     total_bfi = 0.0
     for name in injured_names:
         parts = name.split(' ')
         if len(parts) < 2:
             continue
-        first, last = parts[0], ' '.join(parts[1:])
-        key = (first, last)
-        if key in avg_min_lookup and name in teammate_names:
-            total_bfi += avg_min_lookup[key]
+        first = parts[0]
+        last = ' '.join(parts[1:])
+        key = (first, last, row['gameDate'])
+        if key in lookup_dict and name in teammate_names:
+            total_bfi += lookup_dict[key]
 
     bfi_scores.append(total_bfi)
 

@@ -1,9 +1,8 @@
 import pandas as pd
 from sklearn.model_selection import cross_val_score
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import HistGradientBoostingRegressor
 import mlflow
 import mlflow.sklearn
-from sklearn.ensemble import HistGradientBoostingRegressor
 
 data = pd.read_csv("model_training_data.csv")
 X = data[['numMinutes', 'opponent_oss', 'recent_avg_fp', 'season_avg_fp', 'bfi']]

@@ -8,6 +8,7 @@ from dash import html, dcc
 import plotly.express as px
 from dash.dependencies import Input, Output
 from predictor import get_tomorrows_predictions
+from plots import create_pred_vs_actual_plot
 
 # ---------------
 # DATA PROCESSING
@@ -236,7 +237,7 @@ def create_fp_bar_chart(row):
     return dcc.Graph(figure=fig)
 
 buy_low_section = html.Div([
-    html.H2("Buy Low Candidates", style={"textAlign": "center"}),
+    html.H1("Buy Low Candidates", style={"textAlign": "center"}),
     html.Div([
         create_buy_sell_card(buy_low_candidates.iloc[0]),
         create_fp_bar_chart(buy_low_candidates.iloc[0]),
@@ -253,7 +254,7 @@ buy_low_section = html.Div([
 ])
 
 sell_high_section = html.Div([
-    html.H2("Sell High Candidates", style={"textAlign": "center"}),
+    html.H1("Sell High Candidates", style={"textAlign": "center"}),
     html.Div([
         create_buy_sell_card(sell_high_candidates.iloc[0]),
         create_fp_bar_chart(sell_high_candidates.iloc[0]),
@@ -288,7 +289,7 @@ def create_prediction_card(row):
     })
 
 prediction_section = html.Div([
-    html.H2("Tomorrow's Top Predictions", style={"textAlign": "center"}),
+    html.H1("Tomorrow's Top Predictions"),
     html.H4("Top 3 Predicted Performers", style={"textAlign": "center"}),
     html.Div([create_prediction_card(row) for _, row in top_preds.iterrows()],
              style={"display": "flex", "justifyContent": "center", "gap": "10px"}),
@@ -344,6 +345,9 @@ app.layout = html.Div([
     }),
 
     html.Div(prediction_section),
+
+    html.H1("Model Accuracy: Predicted vs Actual"),
+    create_pred_vs_actual_plot(), 
 
     html.H1("Top Players Over The Last 5 Games"),
     html.Div(player_rows), 
