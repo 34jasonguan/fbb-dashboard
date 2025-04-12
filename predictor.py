@@ -3,7 +3,7 @@ import json
 import mlflow.sklearn
 import kagglehub
 import os
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 path = kagglehub.dataset_download("eoinamoore/historical-nba-data-and-player-box-scores")
 
@@ -24,7 +24,8 @@ def get_tomorrows_predictions():
     schedule['gameDateTimeEst'] = pd.to_datetime(schedule['gameDateTimeEst'])
 
     adjusted_now = datetime.now() - timedelta(hours=16)
-    tomorrow = adjusted_now.date() + timedelta(days=1)
+    # tomorrow = adjusted_now.date() + timedelta(days=1)
+    tomorrow = date(2025, 4, 13) # last day of the season, reset this once the new season starts
 
     tomorrow_games = schedule[schedule['gameDateTimeEst'].dt.date == tomorrow]
     team_ids = set(tomorrow_games['hometeamId']).union(set(tomorrow_games['awayteamId']))
@@ -108,30 +109,32 @@ def get_tomorrows_predictions():
     
     # compute oss rankings for message
     oss_rankings = {}
-
     for pos in ['G', 'F', 'C']:
-        team_values = [(team, values.get(pos)) for team, values in oss_cache.items() if pos in values]
-        team_values = sorted(team_values, key=lambda x: x[1], reverse=True)  # Higher OSS = easier opponent
+        team_values = [
+            (team, values.get(pos))
+            for team, values in oss_cache.items()
+            if values.get(pos) is not None
+        ]
+        team_values = sorted(team_values, key=lambda x: x[1], reverse=True)  # Higher = easier matchup
         oss_rankings[pos] = {team: rank + 1 for rank, (team, _) in enumerate(team_values)}
 
     def get_oss_message(row):
         pos = row.get("position")
-        team = row["opponentteamName"]
-        oss = row["opponent_oss"]
-        
-        if pos and team and oss:
-            rank = oss_rankings.get(pos[0], {}).get(team)
+        team = row.get("opponentteamName")
+        oss = row.get("opponent_oss")
+
+        position_key = pos[0] if isinstance(pos, str) and len(pos) > 0 else None
+        if position_key and team and oss:
+            rank = oss_rankings.get(position_key, {}).get(team)
             if rank:
-                return (
-                    f"{team} allow {rank}ᵗʰ highest FP to {pos}s"
-                )
+                return f"{team} allow {rank}ᵗʰ highest FP to {pos}s"
             else:
                 return f"vs. {team}"
         return ""
     
     df.loc[:, "image_url"] = df.apply(get_image_url, axis=1)
     df.loc[:, "position"] = df.apply(get_position, axis=1)
-    df.loc[:, "oss_message"] = df.apply(get_oss_message, axis=1)
+    df["oss_message"] = df.apply(get_oss_message, axis=1)
 
     # Final features
     df.loc[:, "bfi"] = 0.0  # Placeholder
